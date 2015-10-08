@@ -18,7 +18,7 @@
 			<li><a href="client.php">Your Account</a></li>
 	    </ul>
 	   
-
+		<div class="navbar-fixed">	
 		  <nav class="nav-wrapper white" role="navigation">
 			<div class="nav-wrapper">
 				<div class="container">
@@ -52,6 +52,7 @@
 				<a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons green-text text-darken-3">menu</i></a>
 			</div>
 		  </nav>
+		</div>
 		
 	  <div class="white-text green darken-3" id="search">
 

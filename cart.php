@@ -39,15 +39,26 @@
 				    <p class='cartProdName'>Product Name</p>	  
               </div>
               <div class="col l3 s12">
-                <ul class='right'>
+                <ul>
                   <li><p><strong>Price</strong></p></li>
 				  <li><p>9.99</p></li>
                 </ul>
               </div>
-			  <div class="col l3 s12">
-                <ul class='right'>
-                  <li><p><strong>QTY</strong></p></li>
-				  <li><p>1</p></li>
+			  <div class="col l2 offset-l1 s6">
+                <ul>
+                    <label class="black-text">Quantity</label>
+					<select class="browser-default">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+						<option value="6">6</option>
+						<option value="7">7</option>
+						<option value="8">8</option>
+						<option value="9">9</option>
+						<option value="10">10</option>
+					</select>
                 </ul>
               </div>
             </div>
