@@ -1,0 +1,196 @@
+/* Custom Stylesheet */
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+	/* background-color: #ffd180; */
+  }
+main {
+    flex: 1 0 auto;
+  }
+  
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+.hero{
+  background-image:url("../img/nature1.jpg");
+  background-size:cover;
+  position:relative;
+  height: 50vh;
+}
+
+#search {
+	display: none;
+}
+
+/* padding classes */
+.topmarg10 {
+	margin-top: 10%;
+}
+
+.toppad3 {
+	padding-top: 3%;
+}
+
+.toppad20 {
+	padding-top: 20%;
+}
+
+.leftpad15 {
+	padding-left: 15%;
+}
+
+
+/* END padding classes */
+
+/*nav bar modification*/
+.brand-logo {
+	height: 100%;
+}  
+
+#logo {
+	padding-top: 2%;
+	padding-bottom: 2%;
+	height: 100%;
+}
+
+#dropdown1 a {
+	font-size: 1em;
+}
+#dropdown2 a {
+	font-size: 1em;
+}
+#dropdown3 a {
+	font-size: 1em;
+}
+
+nav ul a {
+	font-size: 1.2em;
+}
+
+
+.page-footer li{
+	display: inline;
+	padding: 1em;
+}
+
+/*END nav bar modification*/
+
+/*collapsible modification*/
+.collapsible-body ul {
+	padding: 4%;
+
+}
+
+/*END collapsible modification*/
+
+.pagination li.active {
+    background-color: #ef6c00;
+}
+
+/*typography modification*/
+.card-content p {
+	font-size: 1.5em;
+}
+
+.card-action span {
+	font-size: 1.5em;	
+}
+
+.dropdown-content li > a, .dropdown-content li > span {
+	color: #2e7d32;
+	font-size: 1em;
+}
+
+.card-panel p a {
+	font-size: 1.4em;
+}
+
+.lineH98 {
+	line-height: 98%;
+}
+
+.cartProdName {
+	font-size: 1.4em;
+}
+
+.collapsible {
+	font-size: 1.4em;
+}
+
+.tabs a {
+	font-size: 1.4em;
+}
+
+.larger {
+	font-size: 1.4em;
+}
+
+.bold {
+	font-weight: 700;
+}
+
+
+/*END typography modification*/
+
+/*tabs modification*/
+
+.tabs .tab a {
+	color: #2e7d32;
+}
+
+.tabs .tab a:hover {
+        color: #ef6c00; 
+}
+
+.tabs .indicator {
+    background-color: #2e7d32;
+}
+
+/*END tabs modification*/
+
+.break {
+	display: block
+}
+
+
+/*Client.php modification*/    
+.secondary-content {
+	color: #2e7d32;
+
+}
+
+
+/*END Client.php modification*/   
+
+
+/*Tabs modification*/  
+
+
+
+/*ENd Tabs modification*/  
+
+
+.input-field .prefix.active {
+	color: #2e7d32;
+}
+
+
+.input[type=text]:focus {
+	border-bottom: 1px solid #2e7d32;
+	box-shadow: 0 1px 0 0 #2e7d32;
+}
+
+.filterBoxes {
+	display: inline;
+	padding-right: 3%;
+}
+
+[type="checkbox"].filled-in:checked + label:after {
+	background-color: #ef6c00;
+	border: 2px solid #ef6c00;
+}
