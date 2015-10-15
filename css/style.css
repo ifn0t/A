@@ -111,10 +111,10 @@ main {
 		font-size: 1.4em;
 	}
 
-	.tabs a {
+	/* .tabs a {
 		font-size: 1.4em;
 	}
-
+ */
 	.larger {
 		font-size: 1.4em;
 	}
@@ -173,7 +173,7 @@ main {
 
 	.filterBoxes {
 		display: inline;
-		padding-right: 3%;
+		margin-right: 1em;
 	}
 
 	[type="checkbox"].filled-in:checked + label:after {
@@ -182,3 +182,7 @@ main {
 	}
 	
 /*END Form modification*/   
+
+
+
+

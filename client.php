@@ -49,11 +49,27 @@ $result = $mysqli->query($sql);
 			<div class="row">
 				<div class="col s12">
 				  <ul class="tabs">
-					<li class="tab col s3 "><a href="#order">Order History</a></li>
-					<li class="tab col s3"><a class="address" href="#address">Address Book</a></li>
-					<li class="tab col s3"><a href="#payment">Payment Settings</a></li>
+					<li class="tab col s3"><a href="#order">Orders</a></li>
+					<li class="tab col s3"><a href="#address">Address Book</a></li>
+					<li class="tab col s3"><a href="#payment">Payment Info</a></li>
 				  </ul>
 				</div>
+			</div>
+			<div class="row">
+			<!--<div class="col s12">
+					<a class="hide-on-large-only dropdown-button green-text text-darken-3 waves-effect waves-light btn-large" data-activates="dropdown5">Button</a>
+				</div>
+				
+				<ul id="dropdown5" class="dropdown-content">
+				  <li class="tab"><a href="#order">Orders</a></li>
+				  <li class="divider"></li>
+				  <li class="tab"><a href="#address">Address Book</a></li>
+				  <li class="divider"></li>
+				  <li class="tab"><a href="#payment">Payment Info</a></li>
+				</ul> -->
+				
+				
+				
 				<div id="order" class="col s12">
 					 <ul class="collection">
 						<li class="collection-item avatar">

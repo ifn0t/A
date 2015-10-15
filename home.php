@@ -17,9 +17,9 @@ $result = $mysqli->query($sql);
 
   <!-- CSS  -->
   
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="css/materialize.css" type="text/css" rel="stylesheet"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet"/>
   
 </head>
 <body>
@@ -28,15 +28,7 @@ $result = $mysqli->query($sql);
    
 <main>
    
-  
-  
- 
-  
-  
-   
-  <div class="container">
-  
-   <div class="slider">
+  <div class="slider">
     <ul class="slides">
       <li>
         <img src="img/smoothies.jpg" alt=""> 
@@ -64,6 +56,10 @@ $result = $mysqli->query($sql);
       </li>
     </ul>
   </div> 
+   
+  <div class="container">
+  
+
   <div class="section toppad3">
 	  <div class="row">
 		<div class="col s12">

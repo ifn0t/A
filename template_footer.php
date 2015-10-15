@@ -6,6 +6,7 @@
             <li><a class="green-text text-darken-3" href="about.php">About Us</a></li>
 			<li><a class="green-text text-darken-3" href="admin.php">Admin</a></li>
 			<li><a class="green-text text-darken-3" href="contact.php">Contact Us</a></li>
+			<li><a class="green-text text-darken-3" href="contact.php">Policies</a></li>
           </ul>
 		</div>
 		 <div class="col l4 s12">
