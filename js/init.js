@@ -70,6 +70,16 @@
     selectYears: 10 // Creates a dropdown of 15 years to control year
   });
        
+	//checkout payment toggler
+	$("[name=toggler]").click(function(){
+		$('.toHide').hide();
+		$("#form-"+$(this).val()).show('fast');
+	});
+  
+	$(".displayForm").click(function(){
+			$( ".showForm" ).show('fast');
+		});
+	
       
   }); // end of document ready
 })(jQuery); // end of jQuery name space

@@ -33,8 +33,16 @@ $result = $mysqli->query($sql);
  	
 		
  <div class="section">
+	
+		
+		<ol class="breadcrumb">
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Category</a></li>
+		</ol>
+		
+	
 	<div class="row">
-		<div class="col s12">
+		<div class="col s12">			
 			<div class="divider"></div>
 			<h3 class='green-text text-darken-3'>Catalog</h3>
 			<div class="divider"></div>
@@ -50,66 +58,25 @@ $result = $mysqli->query($sql);
 			</ul>
 		</div>
 	</div>
-	<div class="divider"></div>
-	<div class="row">  
-		<!-- <div class="col s12 l3 green-text text-darken-3">
-			<ul class="collapsible" data-collapsible="expandable">
-			<li>
-			  <div class="collapsible-header active"><p><a href="#">Yogurt</a></p></div>
-			</li>
-			<li>
-			  <div class="collapsible-header active"><p><a href="#">Nuts & Seeds</a></p></div>
-			</li>
-			<li>
-			   <div class="collapsible-header"><p><a href="#">Dried Fruit</a></p></div>
-			   <div class="collapsible-body">
-					 <ul>
-                      <li>
-                        <input onclick="this.form.submit()" type="checkbox" name="something1" id="something1" value="1" >
-                        <label for="something1">filter</label>
-                       </li>
-                       <li>
-						<input onclick="this.form.submit()" type="checkbox" name="something2" id="something2" value="1" >
-                        <label for="something2">filter</label>
-                       </li>
-                   </ul>
-			   </div>
-			   
-			</li>
-			<li>
-			  <div class="collapsible-header"><p>Smoothies</p></div>
-			</li>
-			<li>
-			  <div class="collapsible-header"><p>Juice</p></div>
-			</li>
-			<li>
-			  <div class="collapsible-header"><p>Tea</p></div>
-			</li>
-			<li>
-			  <div class="collapsible-header"><p>Bars</p></div>
-			</li>
-		  </ul>
-		</div> -->
-		
-		
-		
+	<div class="row">		
 		<div class="col s12">
 		
 	    <?php
         while($row = $result->fetch_assoc()) { ?>	 
 				 <div class="col s12 m6 l4">
-					 <div class="card hoverable">
+					 <div class="card large hoverable">
 					 <a href="product_details.php">
 								<div class="card-image waves-effect waves-block waves-green">
 								  <img src="<? echo $row['image'] ?>" alt="">
 								</div>
-								<div class="card-content orange-text text-darken-3">
-									<p><? echo $row['productName'] ?></p>
-								</div>
+								<!--<div class="card-content orange-text text-darken-3">
+									<p></p>
+								</div>-->
 					</a>
-								<div class="card-action row">
+								<div class="card-action">
 									<div class="col s12">
-										<span class="left"><i class="material-icons">stars stars stars stars</i></span>
+									<p class='larger orange-text text-darken-3'><? echo $row['productName'] ?></p>
+										<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
 										<span class="right">$<? echo $row['price'] ?></span>
 									</div>
 									<div class="col s12">

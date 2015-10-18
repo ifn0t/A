@@ -30,6 +30,74 @@
 		</div>
     </div>
   </div>
+  
+  <div class="section">
+    <div class="container">
+		<div class="row topmarg5">
+			<div class="col s12 center-align">
+					<h3 class="header orange-text text-darken-3">Our Team</h3>
+			</div>
+			<div class="divider"></div>
+			<!--   Icon Section   -->
+			  <div class="row">
+				<div class="col s12 m4">
+				  <div class="icon-block">
+					<h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
+					<h5 class="center">Valeria Alarcon</h5>
+
+					<p class="light">Responsibilities:</p>
+				  </div>
+				</div>
+
+				<div class="col s12 m4">
+				  <div class="icon-block">
+					<h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
+					<h5 class="center">Jeremy Fisher</h5>
+
+					<p class="light">Responsibilities:</p>
+				  </div>
+				</div>
+
+				<div class="col s12 m4">
+				  <div class="icon-block">
+					<h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
+					<h5 class="center">Nicholas Leyva</h5>
+
+					<p class="light">Responsibilities:</p>
+				  </div>
+				</div>
+			  </div>
+			  <div class="row">
+				<div class="col s12 m4">
+				  <div class="icon-block">
+					<h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
+					<h5 class="center">John Panayiotou</h5>
+
+					<p class="light">Responsibilities:</p>
+				  </div>
+				</div>
+
+				<div class="col s12 m4">
+				  <div class="icon-block">
+					<h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
+					<h5 class="center">Megan Walker</h5>
+
+					<p class="light">Responsibilities:</p>
+				  </div>
+				</div>
+
+				<div class="col s12 m4">
+				  <div class="icon-block">
+					<h2 class="center light-blue-text"><i class="material-icons">thumb_up</i></h2>
+					<h5 class="center">Jacob Weiner</h5>
+
+					<p class="light">Responsibilities:</p>
+				  </div>
+				</div>
+			  </div>
+		</div>
+    </div>
+  </div>
 	
  </main>
 

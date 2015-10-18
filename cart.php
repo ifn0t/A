@@ -1,3 +1,8 @@
+<?php
+
+
+	
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,7 +29,6 @@
 	  <div class="container">
 			<div class="row">
 				<div class="col s12">
-					<div class="divider"></div>
 						<h3 class="header orange-text text-darken-3">Shopping Cart</h3>
 					<div class="divider"></div>
 				</div>
@@ -32,41 +36,93 @@
 	 
 	   
 	   
-		<form action="#" method="get">
-			<div class="row">
-              <div class="col l6 s12">
-                <img class="responsive-img" src="img/logoS.png" alt="logo" />
-				    <p class='cartProdName'>Product Name</p>	  
-              </div>
-              <div class="col l3 s12">
-                <ul>
-                  <li><p><strong>Price</strong></p></li>
-				  <li><p>9.99</p></li>
-                </ul>
-              </div>
-			  <div class="col l2 offset-l1 s6">
-                <ul>
-                    <label class="black-text">Quantity</label>
-					<select class="browser-default">
-						<option value="1">1</option>
-						<option value="2">2</option>
-						<option value="3">3</option>
-						<option value="4">4</option>
-						<option value="5">5</option>
-						<option value="6">6</option>
-						<option value="7">7</option>
-						<option value="8">8</option>
-						<option value="9">9</option>
-						<option value="10">10</option>
-					</select>
-                </ul>
-              </div>
-            </div>
+		<form action="#" method="get">			
+			<div class="col s12">
+					<div class="row">
+						<div class='row green-text text-darken-3 cartLabel'>
+								<!-- <div class="col l3 s3">
+										<span>Image</span>
+									</div> 
+									<div class="col l4 s4">
+										<span>Name</span>
+									</div> -->
+									<div class="col l2 offset-l7 s2 offset-s7">
+										<span class='right'>Price</span>
+									</div>
+									<div class="col l3 s3">
+										<span class='right'>QTY</span>
+									</div>
+							
+						</div>
+					</div>
+					<div class="row topmarg3">
+						<div class="col l3 s3">
+							<span><img src="img/chia.jpg" alt="" class="img-responsive cart_image"></span>
+						</div>
+						<div class="col l4 s4">
+							<span>Title of product</span>
+						</div>
+						<div class="col l2 s2">
+							<span class='right'>$2.49</span>
+						</div>
+						<div class="col l3 s3">
+								<ul class='right qtydropdown'>
+									<select class="browser-default">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+									</select>
+								</ul>
+						</div>
+						<a class="topmarg3 right btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>
+					</div>
+			</div>
+			
+			<div class="divider"></div>
+			<div class="row topmarg3">
+						<div class="col l3 s3">
+							<span><img src="img/chia.jpg" alt="" class="img-responsive cart_image"></span>
+						</div>
+						<div class="col l4 s4">
+							<span>Title of product</span>
+						</div>
+						<div class="col l2 s2">
+							<span class='right'>$2.49</span>
+						</div>
+						<div class="col l3 s3">
+								<ul class='right qtydropdown'>
+									<select class="browser-default">
+										<option value="1">1</option>
+										<option value="2">2</option>
+										<option value="3">3</option>
+										<option value="4">4</option>
+										<option value="5">5</option>
+										<option value="6">6</option>
+										<option value="7">7</option>
+										<option value="8">8</option>
+										<option value="9">9</option>
+										<option value="10">10</option>
+									</select>
+								</ul>
+						</div>
+						<a class="topmarg3 right btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>
+						 
+			</div>
 			
 		
 			
 			
-			<div class="divider"></div>
+			
+			
+			
+			
 			 <div class="row">
 			    <div class="col s12 m4 offset-m8">
 					<p class="header right-align"><strong>Sub Total</strong> $9.99</p>
@@ -75,8 +131,6 @@
 			 </div>
 			 <div class="row">
 				<div class="col s12 m4 offset-m8">
-				  <!-- <button class="btn-large right waves-effect waves-light orange darken-3" type="submit" name="action">Proceed to Checkout
-				  </button> -->
 				  <a href="checkout.php" class="waves-effect waves-light btn-large orange darken-3 white-text right">Proceed to Checkout</a>
 				</div>
         	 </div>	
@@ -99,3 +153,7 @@
 
   </body>
 </html>
+
+<?php
+/* $mysqli->close(); */
+?>

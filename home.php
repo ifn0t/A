@@ -211,7 +211,7 @@ $result = $mysqli->query($sql);
 	<div class="section">	
 		<div class="row">
 				<div class="col s12">
-					<h3 class='green-text text-darken-3'>Health Bars</h3>
+					<h3 class='green-text text-darken-3'>Bars</h3>
 				</div>	
 		</div>
 		<div class="row">

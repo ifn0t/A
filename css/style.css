@@ -27,11 +27,27 @@ main {
 	display: none;
 }
 
+.none {
+	display: none;
+}
+
 /* padding and margin classes */
+
+.topmarg1 {
+	margin-top: 1%;
+}
+
+.topmarg3 {
+	margin-top: 3%;
+}
+
 .topmarg10 {
 	margin-top: 10%;
 }
 
+.pad3 {
+	margin: 3%;
+}
 .toppad3 {
 	padding-top: 3%;
 }
@@ -46,7 +62,7 @@ main {
 
 /* END padding & margin classes */
 
-/*nav bar modification*/
+/*nav bar styles*/
 	.brand-logo {
 		height: 100%;
 	}  
@@ -62,26 +78,30 @@ main {
 	}
 
 	.page-footer li{
-		display: inline;
-		padding: 1em;
+		
+		padding: .4em;
 	}
 
-/*END nav bar modification*/
+	.inline {
+		display: inline; 
+	}
+	
+/*END nav bar styles*/
 
-/*collapsible modification*/
+/*collapsible styles*/
 	.collapsible-body ul {
 		padding: 4%;
 
 	}
 
-/*END collapsible modification*/
+/*END collapsible styles*/
 
 	.pagination li.active {
 		background-color: #ef6c00;
 	}
 
 
-/*typography modification*/
+/*typography styles*/
 	.card-content p {
 		font-size: 1.5em;
 	}
@@ -106,6 +126,13 @@ main {
 	.cartProdName {
 		font-size: 1.4em;
 	}
+	
+	.cartLabel {
+		font-size: 1.2em;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		font-weight: 700;
+	}
 
 	.collapsible {
 		font-size: 1.4em;
@@ -124,10 +151,10 @@ main {
 	}
 
 
-/*END typography modification*/
+/*END typography styles*/
 
 
-/*tabs modification*/
+/*tabs styles*/
 
 	.tabs .tab a {
 		color: #2e7d32;
@@ -141,7 +168,7 @@ main {
 		background-color: #2e7d32;
 	}
 
-/*END tabs modification*/
+/*END tabs styles*/
 
 
 .break {
@@ -149,7 +176,7 @@ main {
 }
 
 
-/*Client.php modification*/    
+/*Client.php styles*/    
 	
 	.secondary-content {
 		color: #2e7d32;
@@ -157,10 +184,10 @@ main {
 	}
 
 
-/*END Client.php modification*/   
+/*END Client.php styles*/   
 
 
-/*Form modification*/   
+/*Form styles*/   
 
 	.input-field .prefix.active {
 		color: #2e7d32;
@@ -181,8 +208,55 @@ main {
 		border: 2px solid #ef6c00;
 	}
 	
-/*END Form modification*/   
+	[type="radio"]:checked + label:after {
+		background-color: #2e7d32;
+		border: 2px solid #2e7d32;
+	}
+	
+	[type="radio"]:not(:checked) + label, [type="radio"]:checked + label {
+		margin-left: .5em;
+	}
+	
+	
+/*END Form styles*/
+   
+/*Breadcrumb styles*/
+.breadcrumb li a {
+	color: #ef6c00;
+}
+
+.breadcrumb li.current a {
+	color: #2e7d32;
+}
+
+.breadcrumb li {
+	display: inline;
+	color: #2e7d32; 
+}
+.breadcrumb li+li:before {
+	content:"/ ";
+}
+
+.breadcrumb li+li:hover {
+	border-bottom: 1px solid #2e7d32;
+	box-shadow: 0 1px 0 0 #2e7d32;
+}
+
+/*END breadcrumb styles*/
+
+/*Cart styles*/
+
+.cart_image {
+  width: 60%;
+}
+
+.qtydropdown {
+	margin-top: -.8em;
+}
+
+/*END cart styles*/
 
 
-
-
+.reviewInfo {
+		padding-top: 2%;
+	}

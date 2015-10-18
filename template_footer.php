@@ -1,12 +1,19 @@
 <footer class="page-footer white z-depth-2">
     <div class="container">
       <div class="row">
-        <div class="col l8 s12">
+        <div class="col l4 s12">
           <ul class="left">
-            <li><a class="green-text text-darken-3" href="about.php">About Us</a></li>
-			<li><a class="green-text text-darken-3" href="admin.php">Admin</a></li>
-			<li><a class="green-text text-darken-3" href="contact.php">Contact Us</a></li>
-			<li><a class="green-text text-darken-3" href="contact.php">Policies</a></li>
+            <li class='inline'><a class="green-text text-darken-3" href="about.php">About Us</a></li>
+			<!--<li class='inline'><a class="green-text text-darken-3" href="admin.php">Admin</a></li>-->
+			<li class='inline'><a class="green-text text-darken-3" href="contact.php">Contact Us</a></li>
+          </ul>
+		</div>
+		<div class="col l4 s12">
+		  <h5>Polices</h5>
+          <ul>
+			<li><a class="green-text text-darken-3" href="#">Privacy Policy</a></li>
+			<li><a class="green-text text-darken-3" href="#">Return Policy</a></li>
+			<li><a class="green-text text-darken-3" href="#">Shipping Policy</a></li>
           </ul>
 		</div>
 		 <div class="col l4 s12">

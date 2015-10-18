@@ -14,11 +14,15 @@
 </head>
 <body>
 
+  <?php include_once("template_header.php");?>
+  
+  <main>
+  
   <div class="container">
 	
-	<div class="section center-align">        
+	<!--<div class="section center-align">        
 		<a id="logo-container" href="home.php" class="brand-logo"><img class="responsive-img" src="img/logoS.png" alt="mock logo" /></a>  
-	</div>
+	</div>-->
 
     <div class="section">
 		<div class="row">
@@ -72,10 +76,10 @@
     </div>
   </div>
   
-  
+  </main>
    
-  
 
+  <?php include_once("template_footer.php");?>
   
 
 	

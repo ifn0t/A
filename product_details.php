@@ -20,13 +20,19 @@
     <main>
 	
 	
-	<div class="divider"></div>
 	
 	<div class="container">
-	
+		
+		<div class="divider"></div>
+			<ol class="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Category</a></li>
+				<li class="current"><a href="#">Product</a></li>
+			</ol>
+		<div class="divider"></div>
+		
 		<div class="section">
-			
-				<div class="row toppad3">
+				<div class="row">					
 					<div class="col s12 m12 l6">
 						<img class="responsive-img materialboxed" src="img/nature1.jpg" alt="">
 					</div>
@@ -147,7 +153,110 @@
 		    </div>
 		</div>		
 	</div>
-</div>
+	
+	<div class="divider"></div>
+	
+	<div class="section">
+	
+		<div class="row">
+			<div class="col s12 l4">
+				<h4 class='green-text text-darken-3'>Customer Reviews</h4>
+				<span><i class="material-icons">stars stars stars stars</i></span>
+				<p>47 Reviews</p>
+			</div>
+			<div class="col s12">
+				<a class="displayForm topmarg1 waves-effect waves-light btn green darken-3 white-text">Write a review</a>
+			</div>
+		</div>
+				
+					 <div class="row none showForm">
+					 <div class="card">
+					<div class="card-content">
+						<form class="col s12">
+						  <div class="row">
+							<div class="input-field col s6 l4">
+							  <input placeholder="Your name" id="first_name" type="text" class="validate">
+							  <label for="first_name">Name</label>
+							  <span><i class="material-icons">stars stars stars stars</i></span>
+							</div>
+						  </div>
+						  <div class="row">
+							<div class="input-field col s12">
+							  <textarea placeholder="Write your review here" id="textarea1" class="materialize-textarea"></textarea>
+							  <label for="textarea1">Review</label>
+							</div>
+							  <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit
+								<i class="material-icons right">send</i>
+							  </button>
+						  </div>
+						</form>
+					  </div>
+					</div>
+			    </div>
+				
+        <div class="row">
+			<!--Review block-->
+			<div class="col s12 m6 topmarg1">
+				<div class="col s3 m4 l3">
+					<img src="img/nature3.jpg" class="responsive-img circle">
+					<ul>
+						<li class='reviewInfo'></i>bob bob</li>
+						<li class='reviewInfo'></i>05 OCT 2015</li>
+					</ul>
+				</div>
+				<div class="col s9 m8 l9">
+					<blockquote>
+						<p class="grey-text text-darken-3">
+							Salvia typewriter Carles, XOXO kitsch PBR&B 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
+						</p>
+						<div class="divider"></div>
+					</blockquote>
+				</div>
+			</div>
+			<!--END Review block-->
+			<!--Review block-->
+			<div class="col s12 m6 topmarg1">
+				<div class="col s3 m4 l3">
+					<img src="img/nature3.jpg" class="responsive-img circle">
+					<ul>
+						<li class='reviewInfo'></i>bob bob</li>
+						<li class='reviewInfo'></i>05 OCT 2015</li>
+					</ul>
+				</div>
+				<div class="col s9 m8 l9">
+					<blockquote>
+						<p class="grey-text text-darken-3">
+							Salvia typewriter Carles, XOXO kitsch PBR&B 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
+						</p>
+						<div class="divider"></div>
+					</blockquote>
+				</div>
+			</div>
+			<!--END Review block-->
+			<!--Review block-->
+			<div class="col s12 m6 topmarg1">
+				<div class="col s12 m4 l3">
+					<img src="img/nature3.jpg" class="responsive-img circle">
+					<ul>
+						<li class='reviewInfo'></i>bob bob</li>
+						<li class='reviewInfo'></i>05 OCT 2015</li>
+					</ul>
+				</div>
+				<div class="col s9 m8 l9">
+					<blockquote>
+						<p class="grey-text text-darken-3">
+							Salvia typewriter Carles, XOXO kitsch PBR&B 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
+						</p>
+						<div class="divider"></div>
+					</blockquote>
+				</div>
+			</div>
+			<!--END Review block-->
+			
+		</div>
+	</div>
+	
+	</div>
 	
 </main>
  
