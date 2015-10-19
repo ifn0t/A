@@ -186,7 +186,6 @@
 							  <label for="textarea1">Review</label>
 							</div>
 							  <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit
-								<i class="material-icons right">send</i>
 							  </button>
 						  </div>
 						</form>

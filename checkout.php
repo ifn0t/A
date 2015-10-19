@@ -140,7 +140,7 @@
 											<p class='filterBoxes'>
 											  <input name="toggler" type="radio" id="paypal" value="2" />
 											  <label for="paypal">Login with Paypal</label>
-											</p>
+											</p>											
 										</div>
 										<form action="#">
 											  <div class="row none toHide" id="form-1">
@@ -163,6 +163,8 @@
 													</div>
 												  </div>
 											  </div>
+										</form>
+										<form action="#">
 											  <div class="row none toHide" id="form-2">
 												<div class="input-field col s12 orange-text text-darken-3">
 													<i class="mdi-action-account-circle prefix"></i>
@@ -173,6 +175,9 @@
 													<i class="mdi-action-lock-open prefix"></i>
 													<input id="password" type="password" class="validate">
 													<label for="password">Password</label>
+												</div>
+												<div class="col s12">
+													<button class="right btn waves-effect waves-light green darken-3" type="submit" name="action">Log in</button>
 												</div>
 											 </div>
 										</form>

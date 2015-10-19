@@ -153,7 +153,6 @@ $result = $mysqli->query($sql);
 								</div>
 							  </div>
 							  <button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit
-								<i class="material-icons right">send</i>
 							  </button>
 							</form>
 						</div>
@@ -213,7 +212,6 @@ $result = $mysqli->query($sql);
 								</div>
 							  </div>
 							  <button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit
-								<i class="material-icons right">send</i>
 							  </button>
 							</form>		
 				        </div>

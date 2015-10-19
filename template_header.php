@@ -14,6 +14,11 @@
 		  <li><a href="catalog.php">Flavored Water</a></li>
 		</ul>
 		
+		<ul id='adminDropdown' class='dropdown-content'>
+			<li><a href="admin.php">Your Account</a></li>
+			<li><a href="">Sign Out</a></li>
+	    </ul>
+		
 		<ul id='customerDropdown' class='dropdown-content'>
 			<li><a href="client.php">Your Account</a></li>
 			<li><a href="">Sign Out</a></li>
@@ -38,9 +43,14 @@
 						  
 					<ul class="right">
 						<li class="hide-on-med-and-down"><a href="sign_in.php" class="dropdown-button green-text text-darken-3" data-activates="guestDropdown">Sign In</a></li>
-						<!-- Signed in view
+						<!-- Customer signed in view
 							 
-							 <li class="hide-on-med-and-down"><a href="sign_in.php" class="dropdown-button green-text text-darken-3" data-activates="customerDropdown"><i class="large material-icons green-text text-darken-3">perm_identity</i></a></li></li>
+							 <li class="hide-on-med-and-down"><a href="client.php" class="dropdown-button green-text text-darken-3" data-activates="customerDropdown"><i class="large material-icons green-text text-darken-3">perm_identity</i></a></li></li>
+						-->
+						
+						<!-- Admin signed in view
+							 
+							 <li class="hide-on-med-and-down"><a href="admin.php" class="dropdown-button green-text text-darken-3" data-activates="adminDropdown"><i class="large material-icons green-text text-darken-3">perm_identity</i></a></li></li>
 						-->
 						<li class="hide-on-med-and-down"><a href="cart.php"><i class="large material-icons green-text text-darken-3">shopping_cart</i></a></li>
 						<li><a href="#!" id="toggle-search"><i class="large mdi-action-search green-text text-darken-3"></i></a></li>
