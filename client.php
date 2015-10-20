@@ -49,9 +49,11 @@ $result = $mysqli->query($sql);
 			<div class="row">
 				<div class="col s12">
 				  <ul class="tabs">
-					<li class="tab col s3"><a href="#order">Orders</a></li>
+					<li class="tab col s3"><a href="#orderHist">Order History</a></li>
 					<li class="tab col s3"><a href="#address">Address Book</a></li>
-					<li class="tab col s3"><a href="#payment">Payment Info</a></li>
+					<li class="tab col s3"><a href="#settings">Settings</a></li>
+				<!--<li class="tab col s3"><a href="#address">Address Book</a></li>
+				    <li class="tab col s3"><a href="#payment">Payment Info</a></li> -->
 				  </ul>
 				</div>
 			</div>
@@ -69,8 +71,7 @@ $result = $mysqli->query($sql);
 				</ul> -->
 				
 				
-				
-				<div id="order" class="col s12">
+				<div id="orderHist" class="col s12">
 					 <ul class="collection">
 						<li class="collection-item avatar">
 						   <img src="<?php echo $image ?>" alt="" class="circle responsive-img">
@@ -158,13 +159,31 @@ $result = $mysqli->query($sql);
 						</div>
 					</div>
 				</div>
-				<div id="payment" class="col s12">
+				<div id="settings" class="col s12">
 					<div class="row">
 						<div class="col s12 l6">
+								<div class="card white">
+									<div class="card-content">									
+									  <span class="card-title green-text text-darken-3">Profile</span>
+										<ul class='profileTxt'>
+											<li>Username:  <span class="green-text text-darken-3">balg</span></li>
+											<li>Password:</li>
+											<li>Email:</li>
+											<li>Phone Number:</li>
+											<li>Preferences:</li>
+										</ul>
+										<div class="card-action white-text">
+											  <a href="#modal1" class="modal-trigger waves-effect waves-light btn orange darken-3 white-text">Edit</a>
+										</div>
+									</div>
+								</div>
+							</div>
+						<div class="col s12 l6">
 						  <div class="card white">
-							<div class="card-content black-text">
-							  <span class="card-title black-text">Credit & Debit Cards</span>
-							    <table class="responsive-table">
+							<div class="card-content">
+							  <span class="card-title green-text text-darken-3">Credit & Debit Cards</span>
+							  <!-- dynamic content-->
+							  <table class="responsive-table">
 									<thead>
 									  <tr>
 										  <th data-field="id">Card ending in</th>
@@ -182,14 +201,16 @@ $result = $mysqli->query($sql);
 										<td>04/2018</td>
 									  </tr>	
 									</tbody>
-								  </table>
-							</div>
-							<div class="card-action row white-text">
-								  <a href="#" class="waves-effect waves-light btn orange darken-3 white-text right">Edit Cards</a>
-							</div>
+								</table> 
+								<div class="card-action row white-text">
+									  <a href="#modal2" class="modal-trigger waves-effect waves-light btn orange darken-3 white-text">Add Card</a>
+									  <a id='displayEditCard' class="waves-effect waves-light btn orange darken-3 white-text">Edit Cards</a>
+								</div>
+
+						     </div>
 						  </div>
-						</div>
-				   <div class="col s12 l6">
+					   </div>
+				       <!--<div class="col s12 l6 none" id='AddCard'>
 					   <h4 class="header orange-text text-darken-3">Add a Card</h4>
 						<form class="col s12">
 							  <div class="row">
@@ -213,15 +234,166 @@ $result = $mysqli->query($sql);
 							  </div>
 							  <button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit
 							  </button>
-							</form>		
-				        </div>
-				     </div>
-			    </div>
+						</form>		
+				        </div>-->
+					
+							 <!-- <div class="row">
+								<form class="col s12">
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input placeholder="Placeholder" id="first_name" type="text" class="validate">
+									  <label for="first_name">Username</label>
+									</div>									
+								  </div>								 
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="password" type="password" class="validate">
+									  <label for="password">Password</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="email" type="email" class="validate">
+									  <label for="email">Email</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="pnumber" type="text" class="validate">
+									  <label for="pnumber">Phone Number</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <p>Preferences</p>
+									</div>
+									<ul class="col s12">
+									   <li class='filterBoxes'>
+										  <input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
+										  <label for="filter1">Gluten-free</label>
+										</li>
+										<li class='filterBoxes'>
+										   <input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
+										   <label for="filter2">Vegan</label>
+										</li>
+										<li class='filterBoxes'>
+										   <input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
+										   <label for="filter3">Sugar-free</label>
+										</li>
+									</ul>
+								   </div>
+								</form>
+							  </div>-->
+
+        
+				     </div>				
+				</div>
 		    </div>
 	    </div>		
     </div>	  
 	
 </main>
+
+
+
+	  <!-- Modal Trigger -->
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal modal-fixed-footer">
+    <div class="modal-content">
+      <div class="row">
+								<form class="col s12">
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="first_name" type="text" class="validate">
+									  <label for="first_name">Username</label>
+									</div>									
+								  </div>								 
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="password" type="password" class="validate">
+									  <label for="password">Password</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="email" type="email" class="validate">
+									  <label for="email">Email</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="pnumber" type="text" class="validate">
+									  <label for="pnumber">Phone Number</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <p>Preferences</p>
+									</div>
+									<ul class="col s12">
+									   <li class='filterBoxes'>
+										  <input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
+										  <label for="filter1">Gluten-free</label>
+										</li>
+										<li class='filterBoxes'>
+										   <input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
+										   <label for="filter2">Vegan</label>
+										</li>
+										<li class='filterBoxes'>
+										   <input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
+										   <label for="filter3">Sugar-free</label>
+										</li>
+									</ul>
+								   </div>
+								</form>
+							  </div>
+    </div>
+    <div class="modal-footer">
+      
+	  <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit</button>
+	  <a class="btn btn-flat white modal-close">Cancel</a>
+    </div>
+  </div>
+          
+
+  <!-- Modal Structure 2-->
+  <div id="modal2" class="modal modal-fixed-footer">
+    <div class="modal-content">
+        <div class="col s12 l6">
+					   <h4 class="header orange-text text-darken-3">Add a Card</h4>
+						<form class="col s12">
+							  <div class="row">
+								<div class="input-field col s12">
+								  <input id="first_name" type="text" class="validate">
+								  <label for="first_name">Card Number:</label>
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="input-field col s12">
+								  <input id="cardName" type="text" class="validate">
+								  <label for="cardName">Name on card:</label>
+								</div>
+							  </div>
+							  <div class="row">
+								<div class="input-field col s12">
+								  <label for="expirationDate">Expiration Date:</label>
+								  <input id='expirationDate' type="text" class="datepicker">
+								  
+								</div>
+							  </div>
+							  
+							</form>		
+				        </div>
+    </div>
+    <div class="modal-footer">
+       <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit</button>
+	  <a class="btn btn-flat white modal-close">Cancel</a>
+    </div>
+  </div>
+		  
+		          
+				
   
 <?php include_once("template_footer.php");?>  
 

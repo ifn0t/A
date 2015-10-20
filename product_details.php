@@ -169,7 +169,7 @@
 			</div>
 		</div>
 				
-					 <div class="row none showForm">
+				<div class="row none showForm">
 					 <div class="card">
 					<div class="card-content">
 						<form class="col s12">

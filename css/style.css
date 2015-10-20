@@ -133,6 +133,11 @@ main {
 		padding-bottom: 1em;
 		font-weight: 700;
 	}
+	
+	.profileTxt {
+		font-size: 1.2em;
+		line-height: 2em;
+	}
 
 	.collapsible {
 		font-size: 1.4em;
@@ -144,6 +149,10 @@ main {
  */
 	.larger {
 		font-size: 1.4em;
+	}
+	
+	.cartTxt {
+		font-size: 1.2em;
 	}
 
 	.bold {
@@ -246,12 +255,13 @@ main {
 
 /*Cart styles*/
 
-.cart_image {
-  width: 60%;
+.cartImg {
+  width: 70%;
+  padding: 2%;
 }
 
 .qtydropdown {
-	margin-top: -.8em;
+	margin-top: -.7em;
 }
 
 /*END cart styles*/

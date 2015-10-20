@@ -57,16 +57,16 @@
 					</div>
 					<div class="row topmarg3">
 						<div class="col l3 s3">
-							<span><img src="img/chia.jpg" alt="" class="img-responsive cart_image"></span>
+							<span><img src="img/chia.jpg" alt="" class="circle img-responsive cartImg"></span>
 						</div>
 						<div class="col l4 s4">
-							<span>Title of product</span>
+							<span class='cartTxt'>Title of product</span>
 						</div>
 						<div class="col l2 s2">
-							<span class='right'>$2.49</span>
+							<span class='right cartTxt'>$2.49</span>
 						</div>
 						<div class="col l3 s3">
-								<ul class='right qtydropdown'>
+								<ul class='right'>
 									<select class="browser-default">
 										<option value="1">1</option>
 										<option value="2">2</option>
@@ -86,18 +86,19 @@
 			</div>
 			
 			<div class="divider"></div>
+			
 			<div class="row topmarg3">
 						<div class="col l3 s3">
-							<span><img src="img/chia.jpg" alt="" class="img-responsive cart_image"></span>
+							<span><img src="img/chia.jpg" alt="" class="circle img-responsive cartImg"></span>
 						</div>
 						<div class="col l4 s4">
-							<span>Title of product</span>
+							<span class='cartTxt'>Title of product</span>
 						</div>
 						<div class="col l2 s2">
-							<span class='right'>$2.49</span>
+							<span class='right cartTxt'>$2.49</span>
 						</div>
 						<div class="col l3 s3">
-								<ul class='right qtydropdown'>
+								<ul class='right'>
 									<select class="browser-default">
 										<option value="1">1</option>
 										<option value="2">2</option>
@@ -112,7 +113,7 @@
 									</select>
 								</ul>
 						</div>
-						<a class="topmarg3 right btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>
+						<a class="topmarg3 right btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>				
 						 
 			</div>
 			

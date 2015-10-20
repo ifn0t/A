@@ -134,11 +134,11 @@
 									<h4 class="header orange-text text-darken-3">Payment Method</h4>
 										<div class="row">
 											<p class='filterBoxes'>
-											  <input name="toggler" type="radio" id="card" value="1" />
+											  <input name="checkoutToggler" type="radio" id="card" value="1" />
 											  <label for="card">Credit or Debit card</label>
 											</p>
 											<p class='filterBoxes'>
-											  <input name="toggler" type="radio" id="paypal" value="2" />
+											  <input name="checkoutToggler" type="radio" id="paypal" value="2" />
 											  <label for="paypal">Login with Paypal</label>
 											</p>											
 										</div>
@@ -193,7 +193,7 @@
 							<h4 class="green-text text-darken-3">Review Items</h4>
 							<div class="row">
 								<div class="col l3 s3">
-									<span><img src="img/chia.jpg" alt="" class="img-responsive cart_image"></span>
+									<span><img src="img/chia.jpg" alt="" class="img-responsive cartImg"></span>
 								</div>
 								<div class="col l4 s4">
 									<span>Title of product</span>

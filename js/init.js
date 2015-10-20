@@ -71,14 +71,29 @@
   });
        
 	//checkout payment toggler
-	$("[name=toggler]").click(function(){
+	$("[name=checkoutToggler]").click(function(){
 		$('.toHide').hide();
 		$("#form-"+$(this).val()).show('fast');
 	});
+	
+	
+	$("[name=cardToggler]").click(function(){
+		$('.toHide').hide();
+		$("#form-"+$(this).val()).show('fast');
+	});
+	
   
-	$(".displayForm").click(function(){
-			$( ".showForm" ).show('fast');
-		});
+    $(".displayForm").click(function(){
+		$( ".showForm" ).show('fast');
+	});
+	
+	/* $("#displayAddCard").click(function(){
+		$( "#AddCard" ).show('fast');
+	});
+	
+	$("#displayEditCard").click(function(){
+		$( "#EditCard" ).show('fast');
+	});  */
 	
       
   }); // end of document ready
