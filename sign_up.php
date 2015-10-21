@@ -31,16 +31,16 @@
 				<h3 class="center-align">Create Account</h3>
 				<div class="center-align">
 					<div class="divider"></div>
-					<form class="col s12">
+					<form class="col s12" id='signupForm'>
 						<div class="row center-align">
 							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
 								<i class="mdi-action-account-circle prefix"></i>
-								<input id="name" type="text" class="validate">
-								<label for="name">Your name</label>
+								<input id="username" name="username" type="text" class="validate" >
+								<label for="username">Username</label>
 							</div>
 							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
 								<i class="material-icons prefix">email</i>
-								<input id="email" type="text" class="validate">
+								<input id="email" type="email" class="validate">
 								<label for="email">Email</label>
 							</div>
 							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
@@ -54,16 +54,16 @@
 								<label for="confirmPassword">Confirm Password</label>
 							</div>
 							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
-								<input type="checkbox" class="blue-text" id="filled-in-box" checked="checked">
+								<input type="checkbox" class="green" id="filled-in-box" checked="checked">
 								<label for="filled-in-box">Remember me next time</label>
 							</div> 
+						</div>						
+						<div class="row center-align">
+							<a href="home.php" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
+							<button class="btn btn-flat white-text waves-effect waves-light green darken-3" type="submit" name="action">Submit
+							</button>
 						</div>
 					</form>
-					<div class="divider"></div>
-					<p>
-						<a href="home.php" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
-						<a href="#" class="waves-effect waves-white green darken-3 btn btn-flat white-text">Create Account</a>
-					</p>
 				</div>
 				<div class="divider"></div>
 				<p class="center-align larger">Already a member?</p>
@@ -87,6 +87,7 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+  <script src="js/jquery.validate.js"></script>
 	
 
   </body>
