@@ -31,8 +31,8 @@
 				<h3 class="center-align">Create Account</h3>
 				<div class="center-align">
 					<div class="divider"></div>
-					<form class="col s12" id='signupForm'>
-						<div class="row center-align">
+					<form class="col s12 topmarg3" id='signupForm' action="#" method="">
+						<div class="row">
 							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
 								<i class="mdi-action-account-circle prefix"></i>
 								<input id="username" name="username" type="text" class="validate" >
@@ -58,18 +58,20 @@
 								<label for="filled-in-box">Remember me next time</label>
 							</div> 
 						</div>						
-						<div class="row center-align">
+						<div class="row">
 							<a href="home.php" class="btn btn-flat white modal-close">Cancel</a> &nbsp;
 							<button class="btn btn-flat white-text waves-effect waves-light green darken-3" type="submit" name="action">Submit
 							</button>
 						</div>
+						<div class="divider"></div>
 					</form>
-				</div>
-				<div class="divider"></div>
-				<p class="center-align larger">Already a member?</p>
-					<div class="center-align">
-						<p><a href="sign_in.php" class="waves-effect waves-white green darken-3 btn btn-flat white-text">Sign In</a></p>
+					<div class="row">
+						<div class="col s12">
+							<p class="larger">Already a member?</p>
+							<p><a href="sign_in.php" class="waves-effect waves-white green darken-3 btn btn-flat white-text center-align">Sign In</a></p>
+						</div>
 					</div>
+				</div>				
 			  </div>
 			</div>			
         </div>

@@ -31,7 +31,7 @@
 				<h3 class="center-align">Sign In</h3>
 				<div class="center-align">
 					<div class="divider"></div>
-					<form class="col s12" id='signinForm'>
+					<form class="col s12 topmarg3" id='signinForm' action="#" method="">
 						<div class="row center-align">
 							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
 								<i class="mdi-action-account-circle prefix"></i>
@@ -55,13 +55,15 @@
 							<button class="btn btn-flat white-text waves-effect waves-light green darken-3" type="submit" name="action">Submit
 							</button>
 						</div>
-					</form>				
-				</div>
-				<div class="divider"></div>
-				<p class="center-align larger">New to Just Nature?</p>
-					<div class="center-align">
-						<p><a href="sign_up.php" class="waves-effect waves-white green darken-3 btn btn-flat white-text">Create an Account</a></p>
+						<div class="divider"></div>
+					</form>	
+					<div class="row">
+						<div class="col s12">
+							<p class="larger">New to Just Nature?</p>
+							<p><a href="sign_up.php" class="waves-effect waves-white green darken-3 btn btn-flat white-text">Create an Account</a></p>
+						</div>
 					</div>
+				</div>				
 			  </div>
 			</div>			
         </div>
