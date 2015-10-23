@@ -22,10 +22,10 @@
     <div class="container">
 		<div class="row topmarg10">
 			<div class="col s12 l6">
-					<img class="responsive-img" src="img/logoL.png" alt="mock logo" />
+					<img class="responsive-img" src="img/logo2.png" alt="mock logo" />
 			</div>
 			<div class="col s12 l6">
-					<h2 class='flow-text toppad3'>Everyone loves to eat without feeling guilty, that’s what we are here for. <span class='green-text text-darken-3'>Your health</span> and wellness is our number one priority, so you can rest easy knowing that our delicious snacks and drinks are made with only <span class='green-text text-darken-3'>organic</span> ingredients. No trans-fat, GMO’s, or artificial ingredients. We even have vegan and gluten-free options. Just good wholesome food. <span class='green-text text-darken-3'>Just Nature.</span></h2>
+					<h2 class='flow-text'>Everyone loves to eat without feeling guilty, that’s what we are here for. <span class='green-text text-darken-3'>Your health</span> and wellness is our number one priority, so you can rest easy knowing that our delicious snacks and drinks are made with only <span class='green-text text-darken-3'>organic</span> ingredients. No trans-fat, GMO’s, or artificial ingredients. We even have vegan and gluten-free options. Just good wholesome food. <span class='green-text text-darken-3'>Just Nature.</span></h2>
 			</div>
 		</div>
     </div>

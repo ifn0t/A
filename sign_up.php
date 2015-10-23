@@ -33,27 +33,27 @@
 					<div class="divider"></div>
 					<form class="col s12 topmarg3" id='signupForm' action="#" method="">
 						<div class="row">
-							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
+							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
 								<i class="mdi-action-account-circle prefix"></i>
 								<input id="username" name="username" type="text" class="validate" >
 								<label for="username">Username</label>
 							</div>
-							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
+							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
 								<i class="material-icons prefix">email</i>
 								<input id="email" type="email" class="validate">
 								<label for="email">Email</label>
 							</div>
-							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
+							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
 								<i class="mdi-action-lock-open prefix"></i>
 								<input id="password" type="password" class="validate">
 								<label for="password">Password</label>
 							</div>
-							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
+							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
 								<i class="mdi-action-lock-open prefix"></i>
 								<input id="confirmPassword" type="password" class="validate">
 								<label for="confirmPassword">Confirm Password</label>
 							</div>
-							<div class="input-field col s10 offset-s1 orange-text text-darken-3">
+							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
 								<input type="checkbox" class="green" id="filled-in-box" checked="checked">
 								<label for="filled-in-box">Remember me next time</label>
 							</div> 

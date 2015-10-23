@@ -63,18 +63,35 @@ main {
 /* END padding & margin classes */
 
 /*nav bar styles*/
+	
+	nav.nav-wrapper {
+		height: 6em;
+	}
+	
+	.nav-text {
+		line-height: 6em;
+	
+	}
+	
+	@media only screen and (min-width: 600px) {
+		.nav-icon {
+			padding-top: .5em;
+			padding-bottom: 2.5em;
+		}
+	}
+	
 	.brand-logo {
 		height: 100%;
 	}  
 
 	#logo {
-		padding-top: 2%;
-		padding-bottom: 2%;
+		/* padding-top: 2%;
+		padding-bottom: 2%; */
 		height: 100%;
 	}
 
 	nav ul a {
-		font-size: 1.2em;
+		font-size: 1.3em;
 	}
 
 	.page-footer li{
@@ -273,8 +290,6 @@ main {
 .reviewInfo {
 		padding-top: 2%;
 	}
-	
-	
 	
 	
 

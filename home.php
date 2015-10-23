@@ -99,7 +99,7 @@ $result = $mysqli->query($sql);
 				 <div class="card hoverable">
 				 <a href="product_details.php">
 							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/jn.png" alt="">
+							  <img src="img/NLP_2183.jpg" alt="">
 							</div>
 							<div class="card-content orange-text text-darken-3">
 								<p>Item</p>
@@ -134,7 +134,7 @@ $result = $mysqli->query($sql);
 			 <div class="card hoverable">
 				 <a href="product_details.php">
 							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/jn.png" alt="">
+							  <img src="img/NLP_2183.jpg" alt="">
 							</div>
 							<div class="card-content orange-text text-darken-3">
 								<p>Item</p>
@@ -156,7 +156,7 @@ $result = $mysqli->query($sql);
 			 <div class="card hoverable">
 				 <a href="product_details.php">
 							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/jn.png" alt="">
+							  <img src="img/NLP_2183.jpg" alt="">
 							</div>
 							<div class="card-content orange-text text-darken-3">
 								<p>Item</p>

@@ -32,14 +32,14 @@
 		  <nav class="nav-wrapper white" role="navigation">
 			<div class="nav-wrapper">
 				<div class="container">
-				
+					<div class="nav-text">
 					<ul class="left hide-on-med-and-down">
 						<li><a href="catalog.php" class="dropdown-button green-text text-darken-3" data-activates="snacksDropdown">Snacks</a></li>
 						<li><a href="catalog.php" class="dropdown-button green-text text-darken-3" data-activates="drinksDropdown">Drinks</a></li>
 						<li><a href="catalog.php" class="green-text text-darken-3">Bars</a></li>
 					</ul>
 					
-					<a id="logo-container" href="home.php" class="brand-logo center"><img id="logo" class="responsive-img" src="img/logoS.png" alt="mock logo" /></a>
+					<a id="logo-container" href="home.php" class="brand-logo center"><img id="logo" class="responsive-img" src="img/notagline.png" alt="logo" /></a>
 						  
 					<ul class="right">
 						<li class="hide-on-med-and-down"><a href="sign_in.php" class="dropdown-button green-text text-darken-3" data-activates="guestDropdown">Sign In</a></li>
@@ -52,10 +52,11 @@
 							 
 							 <li class="hide-on-med-and-down"><a href="admin.php" class="dropdown-button green-text text-darken-3" data-activates="adminDropdown"><i class="large material-icons green-text text-darken-3">perm_identity</i></a></li></li>
 						-->
-						<li class="hide-on-med-and-down"><a href="cart.php"><i class="large material-icons green-text text-darken-3">shopping_cart</i></a></li>
-						<li><a href="#!" id="toggle-search"><i class="large mdi-action-search green-text text-darken-3"></i></a></li>
+						<li class="hide-on-med-and-down"><a href="cart.php"><i class="nav-icon large material-icons green-text text-darken-3">shopping_cart</i></a></li>
+						<li><a href="#!" id="toggle-search"><i class="nav-icon large mdi-action-search green-text text-darken-3"></i></a></li>
 					</ul>
 					
+				</div>
 				</div>
 
 				<ul id="nav-mobile" class="side-nav">

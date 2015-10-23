@@ -87,6 +87,17 @@
 		$( ".showForm" ).show('fast');
 	});
 	
+	
+
+	/* $('#btn-search').on('click', function(e) {
+
+		e.preventDefault();
+		$('#search').animate({width: 'toggle'}).focus();
+
+	}); */
+
+
+	
 	/* $("#displayAddCard").click(function(){
 		$( "#AddCard" ).show('fast');
 	});

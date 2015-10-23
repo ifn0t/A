@@ -34,7 +34,7 @@
 		<div class="section">
 				<div class="row">					
 					<div class="col s12 m12 l6">
-						<img class="responsive-img materialboxed" src="img/nature1.jpg" alt="">
+						<img class="responsive-img materialboxed" src="img/NLP_2183.jpg" alt="">
 					</div>
 					<div class="col s12 m12 l6">
 						<h2 class='green-text text-darken-3'>Product Name</h2>
