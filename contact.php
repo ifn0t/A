@@ -20,7 +20,7 @@
  
   <div class="container">
     <div class="row">
-        <div class="col m10 offset-m1 s12">
+        <div class="col s12">
             <h3 class="center-align green-text text-darken-3">Contact Us</h3>
             <div class="row">
                 <form class="col s12">

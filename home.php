@@ -70,53 +70,51 @@ $result = $mysqli->query($sql);
 		</div>
 		<div id="hotProd">
 		<?php while($row = $result->fetch_assoc()) { ?>	
-			<div class="col s12 m4">
-				 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="<? echo $row['image'] ?>" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p><? echo $row['productName'] ?></p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
-									<span class="right">$<? echo $row['price'] ?></span>
+			<div class="col s12 m6 l4">
+					 <div class="card large hoverable">
+					 <a href="product_details.php">
+								<div class="card-image waves-effect waves-block waves-green">
+								  <img src="<? echo $row['image'] ?>" alt="">
 								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+								<!--<div class="card-content orange-text text-darken-3">
+									<p></p>
+								</div>-->
+					</a>
+								<div class="card-action">
+									<div class="col s12">
+									<p class='larger orange-text text-darken-3'><? echo $row['productName'] ?></p>
+										<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+										<span class="right">$<? echo $row['price'] ?></span>
+									</div>
+									<div class="col s12">
+										<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+									</div>
 								</div>
-							</div>
-							
-				 </div>
-			</div>	
+								
+					 </div>
+				 </div> 	
 			<? } ?>
 		</div>
 		<div id="newProd">
-			<div class="col s12 m4">
-				 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/NLP_2183.jpg" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p>Item</p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars</i></span>
-									<span class="right">$1.49</span>
-								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-								</div>
-							</div>
-							
-				 </div>
-			</div>	
+			<div class="col s12 m6 l4">
+				<div class="card large hoverable">
+					 <a href="product_details.php">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="img-responsive" src="img/NLP_2183.jpg" alt="">
+						</div>
+					</a>
+					<div class="card-action">
+						<div class="col s12">
+							<p class='larger orange-text text-darken-3'>Item</p>
+							<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+							<span class="right">$1.99</span>
+						</div>
+						<div class="col s12">
+							<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+						</div>
+					</div>	
+				</div>
+			</div> 
 		</div>
 	  </div>
   </div>      
@@ -130,160 +128,138 @@ $result = $mysqli->query($sql);
 				</div>	
 		</div>
 		<div class="row">
-		  <div class="col s12 m6 l4">
-			 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/NLP_2183.jpg" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p>Item</p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars</i></span>
-									<span class="right">$4.99</span>
-								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-								</div>
-							</div>
-							
-				 </div>
-		  </div>
-		  <div class="col s12 m6 l4">
-			 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/NLP_2183.jpg" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p>Item</p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars</i></span>
-									<span class="right">$5.99</span>
-								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-								</div>
-							</div>
-							
-				 </div>
-		  </div>
-		  <div class="col s12 m6 l4">
-			 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/jn.png" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p>Item</p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars</i></span>
-									<span class="right">$9.99</span>
-								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-								</div>
-							</div>
-							
-				 </div>
-		  </div>
-		  <ul class="pagination">			
-			<li class="waves-effect right"><a href="catalog.php" class="green-text text-darken-3">See more</a></li>
-		  </ul>
+		    <div class="col s12 m6 l4">
+				<div class="card large hoverable">
+					 <a href="product_details.php">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="img-responsive" src="img/NLP_2183.jpg" alt="">
+						</div>
+					</a>
+					<div class="card-action">
+						<div class="col s12">
+							<p class='larger orange-text text-darken-3'>Item</p>
+							<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+							<span class="right">$1.99</span>
+						</div>
+						<div class="col s12">
+							<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		    <div class="col s12 m6 l4">
+				<div class="card large hoverable">
+					 <a href="product_details.php">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="img-responsive" src="img/NLP_2183.jpg" alt="">
+						</div>
+					</a>
+					<div class="card-action">
+						<div class="col s12">
+							<p class='larger orange-text text-darken-3'>Item</p>
+							<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+							<span class="right">$1.99</span>
+						</div>
+						<div class="col s12">
+							<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		    <div class="col s12 m6 l4">
+				<div class="card large hoverable">
+					 <a href="product_details.php">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="img-responsive" src="img/NLP_2183.jpg" alt="">
+						</div>
+					</a>
+					<div class="card-action">
+						<div class="col s12">
+							<p class='larger orange-text text-darken-3'>Item</p>
+							<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+							<span class="right">$1.99</span>
+						</div>
+						<div class="col s12">
+							<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		    <ul class="pagination">			
+			  <li class="waves-effect right"><a href="catalog.php" class="green-text text-darken-3">See more</a></li>
+		    </ul>
 		</div>		
 	</div>	
 	
-	
-     	<div class="section">
-			
-		</div>  
 	<div class="divider"></div>
 	
 	<div class="section">	
 		<div class="row">
-				<div class="col s12">
-					<h3 class='green-text text-darken-3'>Bars</h3>
-				</div>	
+			<div class="col s12">
+				<h3 class='green-text text-darken-3'>Bars</h3>
+			</div>	
 		</div>
 		<div class="row">
 		  <div class="col s12 m6 l4">
-			 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/jn.png" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p>Item</p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars</i></span>
-									<span class="right">$4.99</span>
-								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-								</div>
-							</div>
-							
-				 </div>
-		  </div>
-		  <div class="col s12 m6 l4">
-			 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/jn.png" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p>Item</p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars</i></span>
-									<span class="right">$5.99</span>
-								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-								</div>
-							</div>
-							
-				 </div>
-		  </div>
-		  <div class="col s12 m6 l4">
-			 <div class="card hoverable">
-				 <a href="product_details.php">
-							<div class="card-image waves-effect waves-block waves-green">
-							  <img src="img/jn.png" alt="">
-							</div>
-							<div class="card-content orange-text text-darken-3">
-								<p>Item</p>
-							</div>
-				</a>
-							<div class="card-action row">
-								<div class="col s12">
-									<span class="left"><i class="material-icons">stars stars stars stars</i></span>
-									<span class="right">$9.99</span>
-								</div>
-								<div class="col s12">
-									<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-								</div>
-							</div>
-							
-				 </div>
-		  </div>
-		  <ul class="pagination">			
-			<li class="waves-effect right"><a href="catalog.php" class="green-text text-darken-3">See more</a></li>
-		  </ul>
+				<div class="card large hoverable">
+					 <a href="product_details.php">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="img-responsive" src="img/NLP_2183.jpg" alt="">
+						</div>
+					</a>
+					<div class="card-action">
+						<div class="col s12">
+							<p class='larger orange-text text-darken-3'>Item</p>
+							<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+							<span class="right">$1.99</span>
+						</div>
+						<div class="col s12">
+							<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		    <div class="col s12 m6 l4">
+				<div class="card large hoverable">
+					 <a href="product_details.php">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="img-responsive" src="img/NLP_2183.jpg" alt="">
+						</div>
+					</a>
+					<div class="card-action">
+						<div class="col s12">
+							<p class='larger orange-text text-darken-3'>Item</p>
+							<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+							<span class="right">$1.99</span>
+						</div>
+						<div class="col s12">
+							<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		    <div class="col s12 m6 l4">
+				<div class="card large hoverable">
+					 <a href="product_details.php">
+						<div class="card-image waves-effect waves-block waves-green">
+							<img class="img-responsive" src="img/NLP_2183.jpg" alt="">
+						</div>
+					</a>
+					<div class="card-action">
+						<div class="col s12">
+							<p class='larger orange-text text-darken-3'>Item</p>
+							<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+							<span class="right">$1.99</span>
+						</div>
+						<div class="col s12">
+							<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+						</div>
+					</div>	
+				</div>
+			</div>
+		    <ul class="pagination">			
+			  <li class="waves-effect right"><a href="catalog.php" class="green-text text-darken-3">See more</a></li>
+		    </ul>
 		</div>		
 	</div>	
 	

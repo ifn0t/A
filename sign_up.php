@@ -11,6 +11,7 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
   <link href="css/style.css" type="text/css" rel="stylesheet"/>
   
+  
 </head>
 <body>
 
@@ -31,29 +32,29 @@
 				<h3 class="center-align">Create Account</h3>
 				<div class="center-align">
 					<div class="divider"></div>
-					<form class="col s12 topmarg3" id='signupForm' action="#" method="">
+					<form class="col s12 topmarg3" id='signupForm' action="#" method="get">
 						<div class="row">
-							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
-								<i class="mdi-action-account-circle prefix"></i>
-								<input id="username" name="username" type="text" class="validate" >
+							<div class="input-field col s12 m10 offset-m1">
+								<i class="orange-text text-darken-3 mdi-action-account-circle prefix"></i>
+								<input id="username" name="username" type="text">
 								<label for="username">Username</label>
 							</div>
-							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
-								<i class="material-icons prefix">email</i>
-								<input id="email" type="email" class="validate">
+							<div class="input-field col s12 m10 offset-m1">
+								<i class="orange-text text-darken-3 material-icons prefix">email</i>
+								<input id="email" type="email">
 								<label for="email">Email</label>
 							</div>
-							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
-								<i class="mdi-action-lock-open prefix"></i>
-								<input id="password" type="password" class="validate">
+							<div class="input-field col s12 m10 offset-m1">
+								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
+								<input id="password" type="password">
 								<label for="password">Password</label>
 							</div>
-							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
-								<i class="mdi-action-lock-open prefix"></i>
-								<input id="confirmPassword" type="password" class="validate">
+							<div class="input-field col s12 m10 offset-m1">
+								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
+								<input id="confirmPassword" type="password">
 								<label for="confirmPassword">Confirm Password</label>
 							</div>
-							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
+							<div class="input-field col s12 m10 offset-m1">
 								<input type="checkbox" class="green" id="filled-in-box" checked="checked">
 								<label for="filled-in-box">Remember me next time</label>
 							</div> 
@@ -88,9 +89,62 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+
   <script src="js/jquery.validate.js"></script>
+    <script src="js/init.js"></script>
+		
+<script>
 	
+		
+	$().ready(function() {
+		
+		
+		// validate the comment form when it is submitted
+		//$("#commentForm").validate();
+
+		// validate signup form on keyup and submit
+		$("#signupForm").validate({
+			rules: {
+				username: {
+					required: true,
+					minlength: 4
+				},
+				password: {
+					required: true,
+					minlength: 10
+				},
+				confirmPassword: {
+					required: true,
+					minlength: 10,
+					equalTo: "#password"
+				},
+				email: {
+					required: true,
+					email: true
+				},
+			},
+			messages: {
+				username: {
+					required: "Please enter a username",
+					minlength: "Your username must consist of at least 4 characters"
+				},
+				password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long"
+				},
+				confirmPassword: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long",
+					equalTo: "Please enter the same password as above"
+				},
+				email: "Please enter a valid email address",
+				agree: "Please accept our policy",
+				topic: "Please select at least 2 topics"
+			}
+		});
+
+	});
+	</script>
 
   </body>
 </html>

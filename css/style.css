@@ -73,13 +73,6 @@ main {
 	
 	}
 	
-	@media only screen and (min-width: 600px) {
-		.nav-icon {
-			padding-top: .5em;
-			padding-bottom: 2.5em;
-		}
-	}
-	
 	.brand-logo {
 		height: 100%;
 	}  
@@ -282,10 +275,7 @@ main {
 }
 
 
-
-
 /*END cart styles*/
-
 
 .reviewInfo {
 		padding-top: 2%;
@@ -293,3 +283,55 @@ main {
 	
 	
 
+/*MEdia Queries*/	
+
+	@media only screen and (min-width: 600px) {
+		.nav-icon {
+			padding-top: .5em;
+			padding-bottom: 2.5em;
+		}	
+	}
+	
+	/*For confirm delete dialogue*/
+	@media only screen and (min-width: 992px) {
+		.confirm {
+			width: 35%;
+		}
+	}
+	
+	/*For description in admin products table*/
+	@media only screen and (max-width: 992px) {
+		.test {
+			white-space: normal;
+		}
+		    
+	}
+	
+/*END Media Queries*/
+	
+
+.fixed {
+  position: fixed; 
+}
+
+.profileImg {
+	width: 30%;
+}
+
+
+/* .bob {
+    width: 100%;
+}
+.input-field label {
+    font-size: 0.8rem;
+    -webkit-transform: translateY(-140%);
+    -moz-transform: translateY(-140%);
+    -ms-transform: translateY(-140%);
+    -o-transform: translateY(-140%);
+    transform: translateY(-140%);
+} 
+ */
+ 
+.input-field .prefix ~ label.error {
+	margin-left: 10rem;
+}

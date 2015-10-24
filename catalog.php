@@ -60,30 +60,28 @@ $result = $mysqli->query($sql);
 	</div>
 	<div class="row">		
 		<div class="col s12">
-		
 	    <?php
         while($row = $result->fetch_assoc()) { ?>	 
 				 <div class="col s12 m6 l4">
 					 <div class="card large hoverable">
-					 <a href="product_details.php">
-								<div class="card-image waves-effect waves-block waves-green">
-								  <img src="<? echo $row['image'] ?>" alt="">
-								</div>
+						<a href="product_details.php">
+							<div class="card-image waves-effect waves-block waves-green">
+								<img src="<? echo $row['image'] ?>" alt="">
+							</div>
 								<!--<div class="card-content orange-text text-darken-3">
 									<p></p>
 								</div>-->
-					</a>
-								<div class="card-action">
-									<div class="col s12">
-									<p class='larger orange-text text-darken-3'><? echo $row['productName'] ?></p>
-										<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
-										<span class="right">$<? echo $row['price'] ?></span>
-									</div>
-									<div class="col s12">
-										<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
-									</div>
-								</div>
-								
+						</a>
+						<div class="card-action">
+							<div class="col s12">
+								<p class='larger orange-text text-darken-3'><? echo $row['productName'] ?></p>
+								<span class="left"><i class="material-icons">stars stars stars stars stars</i></span>
+								<span class="right">$<? echo $row['price'] ?></span>
+							</div>
+							<div class="col s12">
+								<a href="#" class="waves-effect waves-light btn orange darken-3 white-text">Add to Cart</a>
+							</div>
+						</div>								
 					 </div>
 				 </div> 
 			<? } ?>

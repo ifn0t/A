@@ -50,9 +50,9 @@
   
   
   //Pushpin
-/*   $(document).ready(function(){
+  $(document).ready(function(){
     $('.tabs-wrapper .row').pushpin({ top: $('.tabs-wrapper').offset().top });
-  }); */
+  }); 
      
   //Tabs
   $(document).ready(function(){

@@ -57,7 +57,7 @@
 					</div>
 					<div class="row topmarg3">
 						<div class="col l3 s3">
-							<span><img src="img/chia.jpg" alt="" class="circle img-responsive cartImg"></span>
+							<span><img src="img/chia.jpg" alt="" class=" img-responsive cartImg"></span>
 						</div>
 						<div class="col l4 s4">
 							<span class='cartTxt'>Title of product</span>
@@ -89,7 +89,7 @@
 			
 			<div class="row topmarg3">
 						<div class="col l3 s3">
-							<span><img src="img/chia.jpg" alt="" class="circle img-responsive cartImg"></span>
+							<span><img src="img/chia.jpg" alt="" class=" img-responsive cartImg"></span>
 						</div>
 						<div class="col l4 s4">
 							<span class='cartTxt'>Title of product</span>
