@@ -8,10 +8,12 @@
 			<li class='inline'><a class="green-text text-darken-3" href="policies.php">Policies</a></li>
           </ul>
 		</div>
-		 <div class="col l4 offset-l4 s12">
-			 <a href="home.php" class="brand-logo"><img class="responsive-img" src="img/logoS.png" alt="mock logo" /></a>
-			 <p>2702 Country Club Road, Sheboygan, WI 53081<br />394-079-1283 <br />Email us at <span class='green-text text-darken-3'>justnature.com</span></p>
-		 </div>
+		<div class="col l4 s12 center-align leftSmall hide-on-small-only">
+			<a href="home.php" class="brand-logo"><img class="footerLogo responsive-img" src="img/logo-notext.png" alt="mock logo" /></a>			 
+		</div>
+		<div class="col l4 s12">
+			<p>2702 Country Club Road, Sheboygan, WI 53081<br />394-079-1283 <br />Email us at <span class='green-text text-darken-3'>justnature.com</span></p>
+		</div>
       </div>
 	
                

@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Just Nature Admin - John Panayiotou</title>
 
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
-  
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
   <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/css-stars.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
   
 </head>
 <body>
@@ -23,9 +27,8 @@
 	  <div class="container">
 			<div class="row">
 				<div class="col s12">
-					<div class="divider"></div>
 						<h3 class="header orange-text text-darken-3">Admin</h3>
-					<div class="divider"></div>
+					<div class="divider"></div>					 
 				</div>
 			</div>
 			<div class="row">
@@ -76,7 +79,7 @@
 									<td>$0.59</td>
 									<td>1.99</td>
 									<td>6 OZ</td>
-									<td><a class="btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
+									<td><a href="#editProduct" class="modal-trigger btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
 									<td><a href="#confirmDelete" class="modal-trigger btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
 								  </tr>
 								  <tr>
@@ -88,7 +91,7 @@
 									<td>$0.59</td>
 									<td>1.99</td>
 									<td>6 OZ</td>
-									<td><a class="btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
+									<td><a href="#editProduct" class="modal-trigger btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
 									<td><a href="#confirmDelete" class="modal-trigger btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
 								  </tr>
 								  <tr>
@@ -100,7 +103,7 @@
 									<td>$0.59</td>
 									<td>1.99</td>
 									<td>6 OZ</td>
-									<td><a class="btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
+									<td><a href="#editProduct" class="modal-trigger btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
 									<td><a href="#confirmDelete" class="modal-trigger btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
 								  </tr>
 								  <tr>
@@ -112,7 +115,7 @@
 									<td>$0.59</td>
 									<td>1.99</td>
 									<td>6 OZ</td>
-									<td><a class="btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
+									<td><a href="#editProduct" class="modal-trigger btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
 									<td><a href="#confirmDelete" class="modal-trigger btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
 								  </tr>
 								  <tr>
@@ -124,7 +127,7 @@
 									<td>$0.59</td>
 									<td>1.99</td>
 									<td>6 OZ</td>
-									<td><a class="btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
+									<td><a href="#editProduct" class="modal-trigger btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
 									<td><a href="#confirmDelete" class="modal-trigger btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
 								  </tr>
 								  <tr>
@@ -136,7 +139,7 @@
 									<td>$0.59</td>
 									<td>1.99</td>
 									<td>6 OZ</td>
-									<td><a class="btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
+									<td><a href="#editProduct" class="modal-trigger btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
 									<td><a href="#confirmDelete" class="modal-trigger btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
 								  </tr>
 								  <tr>
@@ -148,51 +151,81 @@
 									<td>$0.59</td>
 									<td>1.99</td>
 									<td>6 OZ</td>
-									<td><a class="btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
+									<td><a href="#editProduct" class="modal-trigger btn-floating waves-effect waves-light orange darken-3"><i class="mdi-action-autorenew"></i></a></td>
 									<td><a href="#confirmDelete" class="modal-trigger btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a></td>
 								  </tr>
 								</tbody>
 							  </table>						
 						</form>
-					 </div>
+					 </div>				 
 					 <div class="row">
 						<div class="col s12">
-							<a class="displayForm waves-effect waves-light btn-large orange darken-3">Add a Product</a>
+							<a  href="#addProduct" class="modal-trigger waves-effect waves-light btn-large orange darken-3">Add a Product</a>
 						</div>
 					</div>
-					<div class="row none showForm">
-						<div class="card">
+					<!--<div class="row none showForm">
+						<div class="card col s12 l6">
 							<div class="card-content">
 								<form class="col s12">
 								  <div class="row">
-									<div class="input-field col s12 m6">
-									  <input id="productName" type="text" class="validate">
+									<div class="input-field col s12">
+									  <input id="productName" type="text" >
 									  <label for="productName">Product Name</label>
 									</div>
 								  </div>
 								  <div class="row">
-									<div class="input-field col s12 m6">
+									<div class="input-field col s12">
+									  <input id="brandName" type="text" >
+									  <label for="brandName">Brand</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
 									  <textarea id="productDescription" class="materialize-textarea" placeholder="Product description"></textarea>
 									  <label for="productDescription">Description</label>
 									</div>
 								  </div>
 								  <div class="row">
-									<div class="input-field col s12 m6">
-									  <input placeholder="2.99" type="text" id="productPrice" class="validate">
+									<div class="input-field col s12">
+									  <input type="text" id="productSku" >
+									  <label for="productSku">SKU</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input type="number" id="productStock" >
+									  <label for="productStock">Stock</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input placeholder="1.99" type="text" id="productCost" >
+									  <label for="productCost">Cost</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input placeholder="2.99" type="text" id="productPrice" >
 									  <label for="productPrice">Price</label>
 									</div>
 								  </div>
 								  <div class="row">
-								   <div class="input-field col s12 m6">
+								   <div class="input-field col s12">
 									   <div class="file-field input-field">
 										  <div class="btn orange darken-3">
 											<span>Add Image</span>
-											<input type="file">
+											<input type="file" data-validation="size" data-validation-max-size="2M">
 										  </div>
 										  <div class="file-path-wrapper">
 											<input class="file-path validate" type="text">
 										  </div>
 										</div>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input type="text" id="productWeight" >
+									  <label for="productWeight">Weight</label>
 									</div>
 								  </div>
 								  <div class="row">
@@ -209,6 +242,25 @@
 									  </div>
 								  </div>
 								  <div class="row">
+									<div class="input-field col s12">
+									   <p>Preferences</p>
+									</div>
+									<ul class="col s12">
+										<li class='filterBoxes'>
+											<input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
+											<label for="filter1">Gluten-free</label>
+										</li>
+										<li class='filterBoxes'>
+											<input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
+											<label for="filter2">Vegan</label>
+										</li>
+										<li class='filterBoxes'>
+											<input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
+											<label for="filter3">Sugar-free</label>
+										</li>
+									</ul>
+								  </div>
+								  <div class="row">
 									<div class="col s12">
 										<button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit
 										</button>
@@ -217,32 +269,69 @@
 								</form>
 							</div>
 						</div>
-					</div>
+					</div>-->
 				</div>
 				<div id="overview" class="col s12">
 					
 					<div class="row">
-						<div class="col s12 m6">
-							<h4 class="header orange-text text-darken-3">Sales</h4>
-							<ul class="larger">
-								<li><p>User Accounts:<span class="bold"> 100</span></p></li>
-								<li><p>Total Orders:<span class="bold"> 233</span></p></li>
-								<li><p>Total Sales:<span class="bold"> $1,029</span></p></li>
-							</ul>
-						</div>
-						<div class="col s12 m6">
-							<h4 class="header orange-text text-darken-3">Products</h4>
-							<ul class="larger">
-								<li><p>Number of Products:<span class="bold"> 60</span></p></li>
-								<li><p>Best Selling Product:<span class="bold"> Cajun Blend</span></p></li>
-							</ul>
+						<div class="card green darken-3">
+							<div class="card-content white-text">
+								<h4 class="header">Sales</h4>
+								<ul>
+									<li><p>User Accounts:<span class="bold"> 100</span></p></li>
+									<li><p>Total Orders:<span class="bold"> 233</span></p></li>
+									<li><p>Total Sales:<span class="bold"> $1,029</span></p></li>
+								</ul>
+						    </div>
 						</div>
 					</div>
 					
-				
-			    </div>		
-			
-			
+					<div class="row">
+						<div class="card green darken-3">
+							<div class="card-content white-text">
+								<h4 class="header">Products</h4>
+								<ul>
+									<li><p>Number of Products:<span class="bold"> 60</span></p></li>
+									<li><p>Best Selling Product:<span class="bold"> blah</span></p></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<h4 class="header orange-text text-darken-3">Customer Orders</h4>
+						<ul class="collection">
+						<li class="collection-item avatar">
+						  <i class="material-icons circle">thumb_up</i>
+						  <span class="title">Customer Name</span>
+						  <p>Product Name</p>
+						  <p>$4.75</p>
+						  <p class="secondary-content">04/22/2045</p>
+						</li>
+						<li class="collection-item avatar">
+						  <i class="material-icons circle">thumb_up</i>
+						  <span class="title">Customer</span>
+						  <p>Product Name</p>
+						  <p>$4.75</p>
+						  <p class="secondary-content">04/22/2045</p>
+						</li>
+						<li class="collection-item avatar">
+						  <i class="material-icons circle">thumb_up</i>
+						  <span class="title">Customer Name</span>
+						  <p>Product Name</p>
+						  <p>$4.75</p>
+						  <p class="secondary-content">04/21/2045</p>
+						</li>
+						<li class="collection-item avatar">
+						  <i class="material-icons circle">thumb_up</i>
+						  <span class="title">Customer Name</span>
+						  <p>Product Name</p>
+						  <p>$4.75</p>
+						  <p class="secondary-content">04/20/2045</p>
+						</li>
+					  </ul>
+					</div>
+					
+				</div>			
 			</div>
 		</div>
 	</div>
@@ -275,28 +364,52 @@
 			<form class="col s12">
 				<div class="row">
 					<div class="input-field col s12">
-						<input id="productName" type="text" class="validate">
+						<input id="productName" type="text" data-validation="required" data-validation-error-msg="Product name is required">
 						<label for="productName">Product Name</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea id="productDescription" class="materialize-textarea" placeholder="Product description"></textarea>
+						<input id="brandName" type="text" data-validation="required" data-validation-error-msg="Brand name is required">
+						<label for="brandName">Brand</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<textarea id="productDescription" class="materialize-textarea" placeholder="Product description" data-validation="required" data-validation-error-msg="Description is required"></textarea>
 						<label for="productDescription">Description</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-							<input placeholder="2.99" type="text" id="productPrice" class="validate">
-							<label for="productPrice">Price</label>
+						<input type="text" id="productSku" data-validation="number">
+						<label for="productSku">SKU</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input type="number" id="productStock" data-validation="number">
+						<label for="productStock">Stock</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input placeholder="1.99" type="text" id="productCost" data-validation="number" data-validation-allowing="float">
+						<label for="productCost">Cost</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s12">
+						<input placeholder="2.99" type="text" id="productPrice" data-validation="number" data-validation-allowing="float">
+						<label for="productPrice">Price</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
 						<div class="file-field input-field">
 							<div class="btn orange darken-3">
-								<span>Add Image</span>
-								<input type="file">
+							<span>Add Image</span>
+							<input type="file" data-validation="size" data-validation-max-size="2M">
 							</div>
 							<div class="file-path-wrapper">
 								<input class="file-path validate" type="text">
@@ -305,8 +418,14 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="input-field col s6 m4">
-						<select class="browser-default">
+					<div class="input-field col s12">
+						<input type="text" id="productWeight"  placeholder="measured in oz" data-validation="number" data-validation-allowing="float">
+						<label for="productWeight">Weight</label>
+					</div>
+				</div>
+				<div class="row">
+					<div class="input-field col s6 m4" >
+						<select class="browser-default" data-validation="required" data-validation-error-msg="Please select a category">
 							<option value="" disabled selected>Category</option>
 							<option value="nutsAndSeeds">Nuts & Seeds</option>
 							<option value="driedFruit">Dried Fruit</option>
@@ -317,14 +436,144 @@
 						</select>
 					</div>
 				</div>
+				<div class="row">
+					<div class="input-field col s12">
+					   <p>Preferences</p>
+					</div>
+					<ul class="col s12">
+						<li class='filterBoxes'>
+							<input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
+							<label for="filter1">Gluten-free</label>
+						</li>
+						<li class='filterBoxes'>
+							<input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
+							<label for="filter2">Vegan</label>
+						</li>
+						<li class='filterBoxes'>
+							<input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
+							<label for="filter3">Sugar-free</label>
+						</li>
+					</ul>
+				</div>
 				<div class="modal-footer">
-				  <button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit</button>
-				  <a class="btn btn-flat white modal-close">Cancel</a>
+					<button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit</button>
+					<a class="btn btn-flat white modal-close">Cancel</a>
 				</div>
 			</form>
 		</div>
 	</div>
-  </div>			
+  </div>
+
+
+
+
+  <div id="addProduct" class="modal">
+    <div class="modal-content">
+	    <div class="row">
+						<h4 class="orange-text text-darken-3">Add a Product</h4>
+								<form class="col s12">
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="productName" type="text" data-validation="required" data-validation-error-msg="Product name is required">
+									  <label for="productName">Product Name</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input id="brandName" type="text" data-validation="required" data-validation-error-msg="Brand name is required">
+									  <label for="brandName">Brand</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <textarea id="productDescription" class="materialize-textarea" placeholder="Product description" data-validation="required" data-validation-error-msg="Description is required"></textarea>
+									  <label for="productDescription">Description</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input type="text" id="productSku" data-validation="number">
+									  <label for="productSku">SKU</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input type="number" id="productStock" data-validation="number">
+									  <label for="productStock">Stock</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input placeholder="1.99" type="text" id="productCost" data-validation="number" data-validation-allowing="float">
+									  <label for="productCost">Cost</label>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input placeholder="2.99" type="text" id="productPrice" data-validation="number" data-validation-allowing="float">
+									  <label for="productPrice">Price</label>
+									</div>
+								  </div>
+								  <div class="row">
+								   <div class="input-field col s12">
+									   <div class="file-field input-field">
+										  <div class="btn orange darken-3">
+											<span>Add Image</span>
+											<input type="file" data-validation="size" data-validation-max-size="2M">
+										  </div>
+										  <div class="file-path-wrapper">
+											<input class="file-path validate" type="text">
+										  </div>
+										</div>
+									</div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									  <input type="text" id="productWeight" placeholder="measured in oz" data-validation="number" data-validation-allowing="float">
+									  <label for="productWeight" >Weight</label>
+									</div>
+								  </div>
+								  <div class="row">
+									  <div class="input-field col s6 m4">
+										<select class="browser-default" data-validation="required" data-validation-error-msg="Please select a category">
+										  <option value="" disabled selected>Category</option>
+										  <option value="nutsAndSeeds">Nuts & Seeds</option>
+										  <option value="driedFruit">Dried Fruit</option>
+										   <option value="bars">Bars</option>
+										  <option value="smoothies">Smoothies</option>
+										  <option value="juice">Juice</option>
+										  <option value="tea">Flavored Water</option>			
+										</select>
+									  </div>
+								  </div>
+								  <div class="row">
+									<div class="input-field col s12">
+									   <p>Preferences</p>
+									</div>
+									<ul class="col s12">
+										<li class='filterBoxes'>
+											<input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
+											<label for="filter1">Gluten-free</label>
+										</li>
+										<li class='filterBoxes'>
+											<input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
+											<label for="filter2">Vegan</label>
+										</li>
+										<li class='filterBoxes'>
+											<input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
+											<label for="filter3">Sugar-free</label>
+										</li>
+									</ul>
+								  </div>
+								  <div class="modal-footer">
+									<button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit</button>
+									<a class="btn btn-flat white modal-close">Cancel</a>
+								  </div>
+								</form>
+							</div>
+					
+	</div>
+  </div>
   
 <?php include_once("template_footer.php");?>  
 
@@ -334,7 +583,8 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-	
+  <script src="js/jquery.barrating.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
 
   </body>
 </html>

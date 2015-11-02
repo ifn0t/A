@@ -10,11 +10,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Just Nature Cart - John Panayiotou</title>
 
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
-  
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
   <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/css-stars.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
   
 </head>
 <body>
@@ -66,7 +70,7 @@
 							<span class='right cartTxt'>$2.49</span>
 						</div>
 						<div class="col l3 s3">
-								<ul class='right'>
+								<span class='right'>
 									<select class="browser-default">
 										<option value="1">1</option>
 										<option value="2">2</option>
@@ -79,9 +83,9 @@
 										<option value="9">9</option>
 										<option value="10">10</option>
 									</select>
-								</ul>
+								</span>
 						</div>
-						<a class="topmarg3 right btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>
+						<button class="topmarg3 right btn-floating waves-effect waves-light red">x</button>
 					</div>
 			</div>
 			
@@ -98,7 +102,7 @@
 							<span class='right cartTxt'>$2.49</span>
 						</div>
 						<div class="col l3 s3">
-								<ul class='right'>
+								<span class='right'>
 									<select class="browser-default">
 										<option value="1">1</option>
 										<option value="2">2</option>
@@ -111,10 +115,9 @@
 										<option value="9">9</option>
 										<option value="10">10</option>
 									</select>
-								</ul>
+								</span>
 						</div>
-						<a class="topmarg3 right btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>				
-						 
+						<button class="topmarg3 right btn-floating waves-effect waves-light red">x</button>						 
 			</div>
 			
 		
@@ -131,7 +134,7 @@
 				</div>
 			 </div>
 			 <div class="row">
-				<div class="col s12 m4 offset-m8">
+				<div class="col s12">
 				  <a href="checkout.php" class="waves-effect waves-light btn-large orange darken-3 white-text right">Proceed to Checkout</a>
 				</div>
         	 </div>	
@@ -150,7 +153,8 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-	
+  <script src="js/jquery.barrating.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
 
   </body>
 </html>

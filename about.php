@@ -5,11 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Just Nature About - John Panayiotou</title>
 
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
-  
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
   <link href="css/style.css" type="text/css" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/animate.css">
+  <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
   
 </head>
 <body>
@@ -22,7 +25,7 @@
     <div class="container">
 		<div class="row topmarg3">
 			<div class="col s12 center-align">
-					<img class=" responsive-img" src="img/logo2.png" alt="mock logo" />
+					<img class=" responsive-img" src="img/logo.png" alt="mock logo" />
 			</div>
 			<div class="col s12">
 					<h2 class='flow-text'>Everyone loves to eat without feeling guilty, that’s what we are here for. <span class='green-text text-darken-3'>Your health</span> and wellness is our number one priority, so you can rest easy knowing that our delicious snacks and drinks are made with only <span class='green-text text-darken-3'>organic</span> ingredients. No trans-fat, GMO’s, or artificial ingredients. We even have vegan and gluten-free options. Just good wholesome food. <span class='green-text text-darken-3'>Just Nature.</span></h2>
@@ -112,11 +115,12 @@
 
 
 	
-  <!--  Scripts-->
+ <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
-	
+  <script src="js/jquery.barrating.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
 
   </body>
 </html>

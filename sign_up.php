@@ -5,11 +5,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
   <title>Just Nature Sign Up - John Panayiotou</title>
 
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
   
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet"/>
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link href="css/materialize.css" type="text/css" rel="stylesheet"/>
+   <link href="css/style.css" type="text/css" rel="stylesheet"/>
+   <link rel="stylesheet" href="css/animate.css">   
+   <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/theme-default.min.css"
+    rel="stylesheet" type="text/css" />
   
   
 </head>
@@ -27,7 +31,7 @@
 
     <div class="section">
 		<div class="row">
-			<div class="col s12 m8 offset-m2">
+			<div class="col s12 m12 l8 offset-l2">
 			  <div class="card">
 				<h3 class="center-align">Create Account</h3>
 				<div class="center-align">
@@ -36,23 +40,23 @@
 						<div class="row">
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-account-circle prefix"></i>
-								<input id="username" name="username" type="text">
+								<input id="username" name="username" type="text" data-validation="length alphanumeric" data-validation-length="min3">
 								<label for="username">Username</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 material-icons prefix">email</i>
-								<input id="email" type="email">
+								<input id="email" type="email" data-validation="email">
 								<label for="email">Email</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
-								<input id="password" type="password">
-								<label for="password">Password</label>
+								<input name="pass_confirmation" id="pass_confirmation" type="password" data-validation="length" data-validation-length="min8">
+								<label for="password_confirmation">Password</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
-								<input id="confirmPassword" type="password">
-								<label for="confirmPassword">Confirm Password</label>
+								<input name="pass" id="pass" type="password" data-validation="confirmation">
+								<label for="pass">Confirm Password</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<input type="checkbox" class="green" id="filled-in-box" checked="checked">
@@ -89,62 +93,10 @@
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
-
-  <script src="js/jquery.validate.js"></script>
-    <script src="js/init.js"></script>
-		
-<script>
-	
-		
-	$().ready(function() {
-		
-		
-		// validate the comment form when it is submitted
-		//$("#commentForm").validate();
-
-		// validate signup form on keyup and submit
-		$("#signupForm").validate({
-			rules: {
-				username: {
-					required: true,
-					minlength: 4
-				},
-				password: {
-					required: true,
-					minlength: 10
-				},
-				confirmPassword: {
-					required: true,
-					minlength: 10,
-					equalTo: "#password"
-				},
-				email: {
-					required: true,
-					email: true
-				},
-			},
-			messages: {
-				username: {
-					required: "Please enter a username",
-					minlength: "Your username must consist of at least 4 characters"
-				},
-				password: {
-					required: "Please provide a password",
-					minlength: "Your password must be at least 5 characters long"
-				},
-				confirmPassword: {
-					required: "Please provide a password",
-					minlength: "Your password must be at least 5 characters long",
-					equalTo: "Please enter the same password as above"
-				},
-				email: "Please enter a valid email address",
-				agree: "Please accept our policy",
-				topic: "Please select at least 2 topics"
-			}
-		});
-
-	});
-	</script>
+  <script src="js/init.js"></script>
+  <script src="js/jquery.barrating.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/jquery.form-validator.min.js"></script>
+  
 
   </body>
 </html>

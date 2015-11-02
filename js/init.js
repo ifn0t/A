@@ -19,7 +19,7 @@
   );
 
   // Toggle search
-	$('a#toggle-search').click(function()
+  /*  $('a#toggle-search').click(function()
 	{
 		var search = $('div#search');
 
@@ -29,17 +29,38 @@
 		});
 
 		return false;
+	});  */
+	
+    $('#search-trigger').click(function()
+	{
+		var search = $('.search');
+
+		search.is(":visible") ? search.slideUp() : search.slideDown(function()
+		{
+			search.find('input').focus();
+		});
+
+		return false;
+	});   
+	
+	/*= $( 'a#search-trigger' ).click(function() {
+		
+		
+	  $( '.search' ).toggle( "fast", function() {
+	  });
 	});
+	 */
+	
 
 	$(document).ready(function(){
-    // the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
-    $('.modal-trigger').leanModal();
-  });
+		// the "href" attribute of .modal-trigger must specify the modal ID that wants to be triggered
+		$('.modal-trigger').leanModal();
+	});
   
   // slider
   $(document).ready(function(){
       $('.slider').slider({full_width: true});
-    });
+  });
  
  //scrollfire
   var options = [
@@ -87,8 +108,27 @@
 		$( ".showForm" ).show('fast');
 	});
 	
+	//form validation
+	$.validate({
+		  modules : 'security'
+	});
 	
-
+	$.validate({
+		  modules : 'file'
+	});
+	
+	 
+	
+	//star rating system
+	$('.stars').barrating({
+		theme: 'css-stars'
+	});
+	   
+	
+	 /* $(document).ready(function(){
+		$('.tooltipped').tooltip({delay: 50});
+	  }); */
+        
 	/* $('#btn-search').on('click', function(e) {
 
 		e.preventDefault();
