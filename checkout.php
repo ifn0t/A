@@ -163,8 +163,7 @@
 										  <input id="country" type="text" >
 										  <label for="country">Country:</label>
 										</div>
-									  </div>
-									  
+									  </div>									  
 									</form>
 								</div>
 							</div>
@@ -235,7 +234,6 @@
 								</div>
 							</div>							
 						</div>
-						
 						<!-- END logged in payment method view -->
 						
 						<!-- guest payment method view -->
@@ -350,43 +348,7 @@
 						</div>
 					</div>
 				</div>
-			</div>
-			
-			<!-- Customer view -->
-				<!--<div class="row">
-						<div class="col s12 l6">
-						  <div class="card">
-							<div class="card-content">
-							   <h4 class="header orange-text text-darken-3">Shipping Address</h4>
-							   <ul class='larger'>
-								  <li class="">Bob Bob</li>
-								  <li class="">4561 Bobba Road, Alabaster, KY 32142</li>
-								  <li class="">Phone: 000-000-0000</li>
-							   </ul>
-							</div>
-							<div class="card-action row">
-								  <a href="client.php" class="waves-effect waves-light btn orange darken-3 white-text right">Change</a>
-							</div>
-						  </div>
-						</div>
-					
-						<div class="col s12 l6">
-						  <div class="card">
-							<div class="card-content">
-							   <h4 class="header orange-text text-darken-3">Payment Method</h4>
-							   <ul>
-								  <li class="">Card information</li>
-								  <li class="">Billing Address</li>
-							   </ul>
-							</div>
-							<div class="card-action row">
-								  <a href="client.php" class="waves-effect waves-light btn orange darken-3 white-text right">Change</a>
-							</div>
-						  </div>
-						</div>
-					</div> -->
-					<!-- END customer view -->
-		
+			</div>		
 		</div>
 	</div>
 	  
