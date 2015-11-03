@@ -504,7 +504,7 @@ $result = $mysqli->query($sql);
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<input id="zip" type="text" >
+						<input id="zip" type="text" data-validation="custom" data-validation-regexp="^[0-9]{5}(?:-[0-9]{4})?$">
 						<label for="zip">ZIP:</label>
 					</div>
 				</div>
