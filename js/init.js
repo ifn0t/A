@@ -117,7 +117,6 @@
 		  modules : 'file'
 	});
 	
-	 
 	
 	//star rating system
 	$('.stars').barrating({

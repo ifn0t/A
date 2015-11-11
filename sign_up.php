@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Just Nature Sign Up - John Panayiotou</title>
+  <title>Just Nature Sign Up</title>
 
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
@@ -40,7 +40,7 @@
 						<div class="row">
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-account-circle prefix"></i>
-								<input id="username" name="username" type="text" data-validation="length alphanumeric" data-validation-length="min3">
+								<input id="username" name="username" type="text" data-validation="length alphanumeric" data-validation-length="min3" data-validation-error-msg="Username must be at least 3 characters long">
 								<label for="username">Username</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
@@ -50,12 +50,12 @@
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
-								<input name="pass_confirmation" id="pass_confirmation" type="password" data-validation="length" data-validation-length="min8">
+								<input name="pass_confirmation" id="pass_confirmation" type="password" data-validation="length" data-validation-length="min8" data-validation-error-msg="Password must be at least 8 characters long">
 								<label for="password_confirmation">Password</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
-								<input name="pass" id="pass" type="password" data-validation="confirmation">
+								<input name="pass" id="pass" type="password" data-validation="confirmation" data-validation-error-msg="Must be same as password">
 								<label for="pass">Confirm Password</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">

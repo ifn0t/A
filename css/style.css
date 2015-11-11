@@ -278,6 +278,9 @@ main {
 		margin-left: .5em;
 	}
 	
+	.slider .indicators .indicator-item.active {
+		background-color: #2e7d32;
+	}
 	
 /*END Form styles*/
    
@@ -437,3 +440,8 @@ ul.dropdown-cart li .item-right button{
 }
 
 /* END cart dropdown */
+
+
+.footerTxt {
+	line-height: .5em;
+}

@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Just Nature About - John Panayiotou</title>
+  <title>Just Nature About</title>
 
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
@@ -25,9 +25,9 @@
     <div class="container">
 		<div class="row topmarg3">
 			<div class="col s12 center-align">
-					<img class=" responsive-img" src="img/logo.png" alt="mock logo" />
+					<img class="responsive-img" src="img/logo.png" alt="mock logo" />
 			</div>
-			<div class="col s12">
+			<div class="col s12 m12 l10 offset-l1">
 					<h2 class='flow-text'>Everyone loves to eat without feeling guilty, that’s what we are here for. <span class='green-text text-darken-3'>Your health</span> and wellness is our number one priority, so you can rest easy knowing that our delicious snacks and drinks are made with only <span class='green-text text-darken-3'>organic</span> ingredients. No trans-fat, GMO’s, or artificial ingredients. We even have vegan and gluten-free options. Just good wholesome food. <span class='green-text text-darken-3'>Just Nature.</span></h2>
 			</div>
 		</div>

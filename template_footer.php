@@ -12,7 +12,10 @@
 			<a href="home.php" class="brand-logo"><img class="footerLogo responsive-img" src="img/logo-notext.png" alt="mock logo" /></a>			 
 		</div>
 		<div class="col l4 s12">
-			<p>2702 Country Club Road, Sheboygan, WI 53081<br />394-079-1283 <br />Email us at <span class='green-text text-darken-3'>justnature.com</span></p>
+			<p><i class="inline orange-text text-darken-3 material-icons">location_on</i>4000 Central Florida Blvd, Orlando, FL 32816</p>
+			<p class="footerTxt">Email us at <span class='green-text text-darken-3'>justnature.com</span></p>
+			<p class="footerTxt">394-079-1283</p>
+			<p class="footerTxt">Target device: <span class='green-text text-darken-3'>iPad</span></p>
 		</div>
       </div>
 	
@@ -21,8 +24,7 @@
 	  </div>
    <div class="footer-copyright black-text">
             <div class="container">
-            Designed by John Panayiotou
-            <a class="black-text right" href="#!">This site is not official and is an assignment for a UCF Digital Media course.</a>
+            This site is not official and is an assignment for a UCF Digital Media course. Designed by Just Nature.</a>
             </div>
     </div>
 </footer>

@@ -3,7 +3,7 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Just Nature Contact - John Panayiotou</title>
+  <title>Just Nature Contact</title>
 
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
@@ -22,23 +22,22 @@
   <div class="container">
     <div class="row">
         <div class="col s12">
-            <h3 class="center-align green-text text-darken-3">Contact Us</h3>
+            <h3 class="center-align orange-text text-darken-3">Contact Us</h3>
             <div class="row">
-                <form class="col s12">
+                <form class="col s12 m12 l8 offset-l2">
                     <div class="row">
                         <div class="input-field col m6 s12">
-                            <input id="first_name" type="text" class="validate">
+                            <input id="first_name" type="text">
                             <label for="first_name">First Name</label>
                         </div>
                         <div class="input-field col m6 s12">
-                            <input id="last_name" type="text" class="validate">
+                            <input id="last_name" type="text">
                             <label for="last_name">Last Name</label>
                         </div>
                     </div>
                     <div class="row">
                         <div class="input-field col s12">
-                            <i class="mdi-content-mail prefix"></i>
-                            <input id="email" type="email" class="validate" required>
+                            <input id="email" type="email">
                             <label for="email">Email</label>
                         </div>
                     </div>
@@ -59,7 +58,7 @@
                         </div>
                         <div class="input-field col m3 s6 center-align">
                           <input name="group1" type="radio" id="customer" />
-                          <label for="customer">Customer</label>
+                          <label for="customer">Customer referral</label>
                         </div>
                         <div class="input-field col m3 s6 center-align">
                           <input name="group1" type="radio" id="other" />
@@ -73,6 +72,18 @@
                         </div>
                     </div>
                 </form>
+				<!-- <div class="col s12 m12 l6 larger">
+					<div class="card-panel">
+						<i class="inline orange-text text-darken-3 material-icons">location_on</i>
+						<p class='inline green-text text-darken-3'>4000 Central Florida Blvd, Orlando, FL 32816</p>
+						<div class='divider'></div>
+							<i class="inline orange-text text-darken-3 material-icons">email</i>
+							<p class='inline green-text text-darken-3'>justnature.com</p>
+						<div class='divider'></div>
+							<i class="inline orange-text text-darken-3 material-icons ">contact_phone</i>
+							<p class='inline green-text text-darken-3'>394-079-1283</p>
+					</div>
+				</div> -->
             </div>
         </div>
     </div>

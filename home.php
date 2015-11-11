@@ -13,7 +13,7 @@ $result = $mysqli->query($sql);
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Just Nature Home - John Panayiotou</title>
+  <title>Just Nature Home</title>
   
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
   <!-- CSS  -->
@@ -35,26 +35,26 @@ $result = $mysqli->query($sql);
   <div class="slider">
     <ul class="slides">
       <li>
-        <img src="img/smoothies.jpg" alt=""> 
-        <div class="caption center-align">
+        <img src="img/banners/smoothieBanner.jpg" alt=""> 
+        <div class="caption right-align">
           <h3>Smoothies</h3>
-          <h5 class="light grey-text text-lighten-3">Just fresh</h5>
+          <h5 class="light grey-text text-lighten-4">Just fresh</h5>
 		  <a href="catalog.php" class="waves-effect waves-light btn-large orange darken-3">Shop Now</a>
         </div>
       </li>
       <li>
-        <img src="img/nature2.jpg" alt=""> 
+        <img src="img/banners/waterBanner.jpg" alt=""> 
         <div class="caption left-align">
-          <h3>Dried Fruit</h3>
-          <h5 class="light grey-text text-lighten-3">Just delicious</h5>
+          <h3>Flavored Water</h3>
+          <h5 class="light grey-text text-lighten-4">Just delicious</h5>
 		  <a href="catalog.php" class="waves-effect waves-light btn-large orange darken-3">Shop Now</a>
         </div>
       </li>
       <li>
-        <img src="img/test2.jpg" alt=""> 
+        <img src="img/banners/barBanner.jpg" alt=""> 
         <div class="caption right-align">
           <h3>Bars</h3>
-          <h5 class="light grey-text text-lighten-3">Just energy</h5>
+          <h5 class="light grey-text text-lighten-4">Just energy</h5>
 		  <a href="catalog.php" class="waves-effect waves-light btn-large orange darken-3">Shop Now</a>
         </div>
       </li>
