@@ -1,6 +1,7 @@
 (function($){
   $(function(){
 
+  $("#search").hide();
 
   // Initialize collapse button
   $(".button-collapse").sideNav();
@@ -50,7 +51,7 @@
 	  });
 	});
 	 */
-	 $("#search").hide();
+	 
 	 
 	 
 	 $( "#search-trigger" ).click(function() {

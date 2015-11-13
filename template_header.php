@@ -145,4 +145,20 @@
 	    	<input type="text" name="s" class="green darken-3 search white-text animated fadeIn" id='search' placeholder="Search ...">
 	    </form>
       </div>	  
+	  
+	  <!-- Success message-->
+	  <div class="row animated slideInDown none">
+		<div class="col s12 greenAlert">
+			<p class='right'>this is a good alert!</p>
+		</div>
+	  </div>
+	  
+	  
+	  <!--Error message-->
+	  <div class="row animated slideInDown none">
+		<div class="col s12 redAlert">
+			<p class='right'>this is a bad alert!</p>
+		</div>
+	  </div>
+	  
  </header>

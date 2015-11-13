@@ -472,3 +472,21 @@ ul.dropdown-cart li .item-right button{
 .pfix {
 	height: 400px;
 }
+
+
+.greenAlert {
+	/*  background-color: rgba(46,125,50,0.8); */ 
+	background-color: #2e7d32;
+    color: #ffffff;
+	z-index: 2;
+	font-size: 1.2em;
+}
+
+.redAlert {
+	/*  background-color: rgba(46,125,50,0.8); */ 
+    background-color: #f44336;
+    color: #ffffff;
+	z-index: 2;
+	font-size: 1.2em;
+}
+
