@@ -75,17 +75,20 @@ $result = $mysqli->query($sql);
 						</a>
 						<div class="card-action">
 							<div class="col s12">
-								<p class='larger orange-text text-darken-3'><? echo $row['productName'] ?></p>
+								<span class='cardTxt orange-text text-darken-3'><? echo $row['productName'] ?></span>
 								<!--star rating system-->
-								<div class="br-wrapper br-theme-css-stars topmarg-4">
-									<select class="stars">
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-										<option value="5">5</option>
-									</select>
-								</div>
+								<form>
+									<div class="br-wrapper br-theme-css-stars">
+										<select class="stars">
+											<option value="">#</option>
+											<option value="1">1</option>
+											<option value="2">2</option>
+											<option value="3">3</option>
+											<option value="4">4</option>
+											<option value="5">5</option>
+										</select>
+									</div>
+								</form>
 								<!-- END star rating system-->
 								<span class="right">$<? echo $row['price'] ?></span>
 							</div>

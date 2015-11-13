@@ -89,10 +89,10 @@
 						
 						<!--<a href="catalog.php" class="brand-logo green-text text-darken-3 center">Just Nature<img id="logo" class="responsive-img" src="img/logo-notag.png" alt="logo" /></a>-->
 						<ul>
-							<a id="logo-container" href="home.php" class="center brand-logo green-text text-darken-3" >
-							<img id="logo" class=" hide-on-med-and-down responsive-img" src="img/logo2.png" alt="logo" />
-							<img id="logo" class="hide-on-large-only responsive-img" src="img/logo-notag.png" alt="logo" />
-							</a>
+							<li><a id="logo-container" href="home.php" class="center brand-logo green-text text-darken-3" >
+							<img id="logo" class="responsive-img" src="img/logo2.png" alt="logo" />
+							<!--<img id="logo" class="hide-on-large-only responsive-img" src="img/logo-notag.png" alt="logo" />-->
+							</a></li>
 						</ul>
 							  
 						<ul class="right">
@@ -107,7 +107,6 @@
 								 <li class="hide-on-med-and-down"><a href="admin.php" class="dropdown-button green-text text-darken-3" data-activates="adminDropdown"><i class="large material-icons green-text text-darken-3">perm_identity</i></a></li></li>
 							-->
 							<li class="dropdown-button hide-on-med-and-down" data-activates="cartDropdown"><a href="cart.php"><i class="nav-icon large material-icons green-text text-darken-3">shopping_cart</i></a></li>
-							<!--<li><a href="#!" id="toggle-search"><i class="nav-icon large mdi-action-search green-text text-darken-3"></i></a></li>-->
 						</ul>
 					
 					</div>
@@ -143,10 +142,7 @@
 		    <a class="waves-effect waves-light btn-floating btn-large green darken-3" id="search-trigger">
 		      <i class="large mdi-action-search"></i>
 		    </a>
-	    	<input type="text" name="s" class="green darken-3 search animated fadeIn" placeholder="Search ...">
+	    	<input type="text" name="s" class="green darken-3 search white-text animated fadeIn" id='search' placeholder="Search ...">
 	    </form>
-      </div>
-	  
-	 
-	  
+      </div>	  
  </header>

@@ -13,14 +13,14 @@
   <link rel="stylesheet" href="css/animate.css">
   <link href="//cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.2.8/theme-default.min.css"
     rel="stylesheet" type="text/css" />
-  
+
 </head>
 <body>
-		
+
  <?php include_once("template_header.php");?>
-   
+
  <main>
- 
+
   <div class="section">
     <div class="container">
 		<div class="row topmarg3">
@@ -33,7 +33,7 @@
 		</div>
     </div>
   </div>
-  
+
   <div class="section">
     <div class="container">
 		<div class="row topmarg3">
@@ -43,78 +43,106 @@
 		</div>
 			  <div class="row topmarg3">
 				<div class="col s12 m4">
-					<div class="card-panel">
-					  <div class="center-align">
-						<img src="img/NLP_2183.jpg" class="responsive-img circle profileImg">
-						<h5 class="center">Valeria Alarcon</h5>
+				   <div class="card-panel pfix">
+					<div class="center-align">
+						<h5 class="center green-text text-darken-3">Valeria Alarcon</h5>
 						<p class="light">Responsibilities:</p>
-					  </div>
-				    </div>
+					</div>
+					<ul>
+						<li>Image renaming</li>
+						<li>Policies content</li>
+					</ul>
+				   </div>
 				</div>
 
 				<div class="col s12 m4">
-					<div class="card-panel">
-					  <div class="center-align">
-						<img src="img/NLP_2183.jpg" class="responsive-img circle profileImg">
-						<h5 class="center">Jeremy Fisher</h5>
-						<p class="light">Responsibilities:</p>
-					  </div>
-				    </div>
+				   <div class="card-panel pfix">
+						<div class="center-align">
+							<h5 class="center green-text text-darken-3">Jeremy Fisher</h5>
+							<p class="light">Responsibilities:</p>
+						</div>
+						<ul>
+							<li>Payment process research</li>
+							<li>Health preferences organization</li>
+						</ul>
+				   </div>
 				</div>
 
 				<div class="col s12 m4">
-					<div class="card-panel">
-					  <div class="center-align">
-						<img src="img/NLP_2183.jpg" class="responsive-img circle profileImg">
-						<h5 class="center">Nicholas Leyva</h5>
-
-						<p class="light">Responsibilities:</p>
-					  </div>
-				    </div>
+				   <div class="card-panel pfix">
+						<div class="center-align">
+							<h5 class="center green-text text-darken-3">Nicholas Leyva</h5>
+							<p class="light">Responsibilities:</p>
+						</div>
+						<ul>
+							<li>Photography and image editing</li>
+							<li>Logo design</li>
+							<li>Analytics setup</li>
+							<li>SEO</li>
+						</ul>
+				   </div>
 				</div>
-			  </div>
-			  <div class="row topmarg3">
+			</div>
+			<div class="row topmarg3">
 				<div class="col s12 m4">
-					<div class="card-panel">
-					  <div class="center-align">
-						<img src="img/NLP_2183.jpg" class="responsive-img circle profileImg">
-						<h5 class="center">John Panayiotou</h5>
-						<p class="light">Responsibilities:</p>
-					  </div>
+				   <div class="card-panel pfix">
+						<div class="center-align">
+							<h5 class="center green-text text-darken-3">John Panayiotou</h5>
+							<p class="light">Responsibilities:</p>
+						</div>
+						<ul>
+							<li>Client side design and functionality</li>
+							<li>Client side form validation</li>
+							<li>W3 validation</li>
+							<li>Use cases</li>
+						</ul>
 					</div>
 				</div>
 
 				<div class="col s12 m4">
-					<div class="card-panel">
-					  <div class="center-align">
-						<img src="img/NLP_2183.jpg" class="responsive-img circle profileImg">
-						<h5 class="center">Megan Walker</h5>
-						<p class="light">Responsibilities:</p>
-					  </div>
-				    </div>
+					<div class="card-panel pfix">
+						<div class="center-align">
+							<h5 class="center green-text text-darken-3">Megan Walker</h5>
+							<p class="light">Responsibilities:</p>
+						</div>
+						<ul>
+							<li>Cart functionality and integration</li>
+						</ul>
+					</div>
 				</div>
 
 				<div class="col s12 m4">
-					<div class="card-panel">
-					  <div class="center-align">
-						<img src="img/NLP_2183.jpg" class="responsive-img circle profileImg">
-						<h5 class="center">Jacob Weiner</h5>
-						<p class="light">Responsibilities:</p>
-					  </div>
-				    </div>
+					<div class="card-panel pfix">
+						<div class="center-align">
+							<h5 class="center green-text text-darken-3">Jacob Weiner</h5>
+							<p class="light">Group Leader</p>
+							<p class="light">Responsibilities:</p>
+						</div>
+						<ul>
+							<li>Database creation and design</li>
+							<li>Login/signup functionality</li>
+							<li>User access</li>
+							<li>Search funtionality</li>
+							<li>Health preferences functionality</li>
+							<li>User review funtionality</li>
+							<li>Admin/client funtionality</li>
+							<li>Payment funtionality</li>
+							<li>Security</li>
+						</ul>
+					</div>						
 				</div>
-			  </div>
+			</div>
 		</div>
     </div>
-  </div>
-	
+
+
  </main>
 
-  
+
   <?php include_once("template_footer.php");?>
 
 
-	
+
  <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>

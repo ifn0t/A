@@ -42,6 +42,10 @@ main {
 	margin-bottom: -.5%;
 }
 
+.topmarg2 {
+	margin-top: 2%;
+}
+
 .topmarg-2 {
 	margin-top: -2%;
 }
@@ -100,9 +104,9 @@ main {
 	}
 
 	nav ul a {
-		font-size: 1.3em;
+		font-size: 1.4em;
 	}
-
+	
 	.page-footer li{
 		padding: .4em;
 	}
@@ -117,6 +121,7 @@ main {
 	
 	.inline {
 		display: inline; 
+		font-size: 1.1em;
 	}
 	
 /*END nav bar styles*/
@@ -159,7 +164,7 @@ main {
 	}
 
 	.card-action span {
-		font-size: 1.5em;	
+		font-size: 1.3em;	
 	}
 
 	.dropdown-content li > a, .dropdown-content li > span {
@@ -203,7 +208,19 @@ main {
 		font-size: 1.4em;
 	}
 	
+	.qtyBtn{
+		font-size: 1.5em;
+	}
+	
+	.cardTxt {
+		font-size: 1.3em;
+	}
+	
 	.cartTxt {
+		font-size: 1.2em;
+	}
+	
+	.acountTabTxt {
 		font-size: 1.2em;
 	}
 
@@ -444,4 +461,14 @@ ul.dropdown-cart li .item-right button{
 
 .footerTxt {
 	line-height: .5em;
+}
+
+.captionTxt {
+	background-color: rgba(46,125,50,0.6);
+	padding: 1em;
+	border-radius: 2em;
+}
+
+.pfix {
+	height: 400px;
 }

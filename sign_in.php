@@ -22,12 +22,7 @@
   
   <main>
 	
-  <div class="container">
-  
-	<!--<div class="section center-align">        
-		<a id="logo-container" href="home.php" class="brand-logo"><img class="responsive-img" src="img/logoS.png" alt="mock logo" /></a>  
-	</div>-->
-	
+  <div class="container">	
     <div class="section">
 		<div class="row">
 			<div class="col s12 m12 l8 offset-l2">
@@ -35,7 +30,7 @@
 				<h3 class="center-align">Sign In</h3>
 				<div class="center-align">
 					<div class="divider"></div>
-					<form class="col s12 topmarg3" id='signinForm' action="#" method="">
+					<form class="col s12 topmarg3" id='signinForm'>
 						<div class="row center-align">
 							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">
 								<i class="mdi-action-account-circle prefix"></i>
@@ -44,7 +39,7 @@
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
-								<input name="pass_confirmation" id="pass_confirmation" type="password" data-validation="length" data-validation-length="min8">
+								<input name="password_confirmation" id="password_confirmation" type="password" data-validation="length" data-validation-length="min8">
 								<label for="password_confirmation">Password</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1 orange-text text-darken-3">

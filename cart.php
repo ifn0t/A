@@ -1,8 +1,3 @@
-<?php
-
-
-	
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,87 +39,38 @@
 			<div class="col s12">
 					<div class="row">
 						<div class='row green-text text-darken-3 cartLabel'>
-								<!-- <div class="col l3 s3">
-										<span>Image</span>
-									</div> 
-									<div class="col l4 s4">
-										<span>Name</span>
-									</div> -->
-									<div class="col l2 offset-l7 s2 offset-s7">
-										<span class='right'>Price</span>
-									</div>
-									<div class="col l3 s3">
-										<span class='right'>QTY</span>
-									</div>
-							
+							<div class="col l2 offset-l7 s2 offset-s7">
+								<span class='left'>Price</span>
+							</div>
+							<div class="col l3 s3">
+								<span class='left'>QTY</span>
+							</div>							
 						</div>
 					</div>
 					<div class="row topmarg3">
 						<div class="col l3 s3">
-							<span><img src="img/chia.jpg" alt="" class=" img-responsive cartImg"></span>
+							<span><img src="img/chia.jpg" alt="" class="circle img-responsive cartImg"></span>
 						</div>
 						<div class="col l4 s4">
-							<span class='cartTxt'>Title of product</span>
+							<span class='cartTxt'>Title</span>
 						</div>
 						<div class="col l2 s2">
-							<span class='right cartTxt'>$2.49</span>
+							<span class='left cartTxt'>$2.49</span>
 						</div>
 						<div class="col l3 s3">
-								<span class='right'>
-									<select class="browser-default">
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-										<option value="5">5</option>
-										<option value="6">6</option>
-										<option value="7">7</option>
-										<option value="8">8</option>
-										<option value="9">9</option>
-										<option value="10">10</option>
-									</select>
-								</span>
+							<span class="cartTxt">2</span>
+							<span class="right">
+								<a href ="cart.php?minus=' . $id .'" class="topmarg3 right btn btn-flat btn-floating white waves-effect waves break"><span class="green-text text-darken-3 qtyBtn bold">-</span></a>
+								<a href ="cart.php?add=' . $id .'" class="topmarg3 right btn btn-flat btn-floating white waves-effect waves break"><span class="green-text text-darken-3 qtyBtn bold">+</span></a>	
+							</span>
 						</div>
-						<button class="topmarg3 right btn-floating waves-effect waves-light red">x</button>
+						<div class="col l3 s3 offset-s9 offset-l9 topmarg3">
+							<a href ="cart.php?remove=' . $id .'" class="right btn-floating waves-effect waves-light red"><i class="material-icons">delete</i></a>
+						</div>
 					</div>
 			</div>
 			
-			<div class="divider"></div>
-			
-			<div class="row topmarg3">
-						<div class="col l3 s3">
-							<span><img src="img/chia.jpg" alt="" class=" img-responsive cartImg"></span>
-						</div>
-						<div class="col l4 s4">
-							<span class='cartTxt'>Title of product</span>
-						</div>
-						<div class="col l2 s2">
-							<span class='right cartTxt'>$2.49</span>
-						</div>
-						<div class="col l3 s3">
-								<span class='right'>
-									<select class="browser-default">
-										<option value="1">1</option>
-										<option value="2">2</option>
-										<option value="3">3</option>
-										<option value="4">4</option>
-										<option value="5">5</option>
-										<option value="6">6</option>
-										<option value="7">7</option>
-										<option value="8">8</option>
-										<option value="9">9</option>
-										<option value="10">10</option>
-									</select>
-								</span>
-						</div>
-						<button class="topmarg3 right btn-floating waves-effect waves-light red">x</button>						 
-			</div>
-			
-		
-			
-			
-			
-			
+			<div class="divider"></div>			
 			
 			
 			 <div class="row">

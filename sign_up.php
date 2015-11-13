@@ -50,7 +50,7 @@
 							</div>
 							<div class="input-field col s12 m10 offset-m1">
 								<i class="orange-text text-darken-3 mdi-action-lock-open prefix"></i>
-								<input name="pass_confirmation" id="pass_confirmation" type="password" data-validation="length" data-validation-length="min8" data-validation-error-msg="Password must be at least 8 characters long">
+								<input name="password_confirmation" id="password_confirmation" type="password" data-validation="length" data-validation-length="min8" data-validation-error-msg="Password must be at least 8 characters long">
 								<label for="password_confirmation">Password</label>
 							</div>
 							<div class="input-field col s12 m10 offset-m1">

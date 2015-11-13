@@ -42,10 +42,10 @@
 					</div>
 					<div class="col s12 m12 l6">
 						<h3 class='prodTitle green-text text-darken-3'>Product Name</h3>
-						<!--<span><i class="material-icons">stars stars stars stars stars</i></span>-->
 						<!--star rating system-->
 								<div class="br-wrapper br-theme-css-stars">
 									<select class="stars">
+										<option value="">#</option>
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
@@ -59,9 +59,7 @@
 							<div class="col s12 topmarg-2">
 								<p class='larger'>$9.99</p>
 							</div>
-							
 								 <form class="col s4 l3">
-									
 										<select class="browser-default">
 										  <option value="" disabled selected>Quantity</option>
 										  <option value="1">1</option>
@@ -74,10 +72,8 @@
 										  <option value="8">8</option>
 										  <option value="9">9</option>
 										  <option value="10">10</option>
-										</select>
-									
-								  </form>
-													
+										</select>									
+								  </form>					
 						</div>			
 
 						<div class="divider"></div>
@@ -110,6 +106,7 @@
 							<!--star rating system-->
 							<div class="br-wrapper br-theme-css-stars">
 								<select class="stars">
+									<option value="">#</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -139,6 +136,7 @@
 							<!--star rating system-->
 							<div class="br-wrapper br-theme-css-stars">
 								<select class="stars">
+									<option value="">#</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -168,6 +166,7 @@
 							<!--star rating system-->
 							<div class="br-wrapper br-theme-css-stars">
 								<select class="stars">
+									<option value="">#</option>
 									<option value="1">1</option>
 									<option value="2">2</option>
 									<option value="3">3</option>
@@ -197,6 +196,7 @@
 				<!--star rating system-->
 				<div class="br-wrapper br-theme-css-stars">
 					<select class="stars">
+						<option value="">#</option>
 						<option value="1">1</option>
 						<option value="2">2</option>
 						<option value="3">3</option>
@@ -223,6 +223,7 @@
 							  <!--star rating system-->
 								<div class="br-wrapper br-theme-css-stars">
 									<select class="stars">
+										<option value="">#</option>
 										<option value="1">1</option>
 										<option value="2">2</option>
 										<option value="3">3</option>
@@ -250,16 +251,15 @@
 			<!--Review block-->
 			<div class="col s12 m6 topmarg1">
 				<div class="col s3 l3">
-					<img src="img/nature3.jpg" class="responsive-img circle">
 					<ul>
-						<li class='reviewInfo'></i>bob bob</li>
-						<li class='reviewInfo'></i>05 OCT 2015</li>
+						<li class='reviewInfo'>bob bob</li>
+						<li class='reviewInfo'>05 OCT 2015</li>
 					</ul>
 				</div>
 				<div class="col s9 l9">
 					<blockquote>
 						<p class="grey-text text-darken-3">
-							Salvia typewriter Carles, XOXO kitsch PBR&B 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
+							Salvia typewriter Carles, XOXO kitsch PBRB 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
 						</p>
 						<div class="divider"></div>
 					</blockquote>
@@ -269,16 +269,15 @@
 			<!--Review block-->
 			<div class="col s12 m6 topmarg1">
 				<div class="col s3 l3">
-					<img src="img/nature3.jpg" class="responsive-img circle">
 					<ul>
-						<li class='reviewInfo'></i>bob bob</li>
-						<li class='reviewInfo'></i>05 OCT 2015</li>
+						<li class='reviewInfo'>bob bob</li>
+						<li class='reviewInfo'>05 OCT 2015</li>
 					</ul>
 				</div>
 				<div class="col s9 l9">
 					<blockquote>
 						<p class="grey-text text-darken-3">
-							Salvia typewriter Carles, XOXO kitsch PBR&B 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
+							Salvia typewriter Carles, XOXO kitsch PBRB 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
 						</p>
 						<div class="divider"></div>
 					</blockquote>
@@ -288,16 +287,15 @@
 			<!--Review block-->
 			<div class="col s12 m6 topmarg1">
 				<div class="col s3 l3">
-					<img src="img/nature3.jpg" class="responsive-img circle">
 					<ul>
-						<li class='reviewInfo'></i>bob bob</li>
-						<li class='reviewInfo'></i>05 OCT 2015</li>
+						<li class='reviewInfo'>bob bob</li>
+						<li class='reviewInfo'>05 OCT 2015</li>
 					</ul>
 				</div>
 				<div class="col s9 l9">
 					<blockquote>
 						<p class="grey-text text-darken-3">
-							Salvia typewriter Carles, XOXO kitsch PBR&B 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
+							Salvia typewriter Carles, XOXO kitsch PBRB 90's flannel kogi try-hard fap taxidermy forage Kickstarter. Wolf cliche flexitarian, 8-bit VHS viral Kickstarter drinking vinegar health goth. You probably haven't heard of them tousled tofu, cronut mlkshk flexitarian mixtape bespoke Pinterest cred hashtag selfies Carles. Bushwick Odd Future 8-bit distillery. 3 wolf moon salvia pop-up, bicycle rights quinoa brunch beard paleo Intelligentsia slow-carb Echo Park. Helvetica High Life iPhone Godard, Schlitz taxidermy post-ironic direct trade sartorial American Apparel wayfarers Kickstarter. Schlitz viral fap ethical, biodiesel banjo four dollar toast.
 						</p>
 						<div class="divider"></div>
 					</blockquote>

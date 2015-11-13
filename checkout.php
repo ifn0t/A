@@ -32,58 +32,7 @@
 						<h3 class="header orange-text text-darken-3">Checkout</h3>
 					<div class="divider"></div>
 				</div>
-			</div>
-					<!--<div class="row">
-						<div class="col s12">
-						  <div class="card green darken-3">
-							<div class="card-content white-text">
-							  <span class="card-title">Shipping Address</span>
-							   <ul>
-								  <li class="">Bob Bob</li>
-								  <li class="">4561 Bobba Road, Alabaster, KY 32142</li>
-								  <li class="">Phone: 000-000-0000</li>
-							   </ul>
-							</div>
-							<div class="card-action row white-text">
-								  <a href="" class="waves-effect waves-light btn orange darken-3 white-text right">Change</a>
-							</div>
-						  </div>
-						</div>
-					
-						<div class="col s12">
-						  <div class="card green darken-3">
-							<div class="card-content white-text">
-							  <span class="card-title">Payment method</span>
-							   <ul>
-								  <li class="">Card information</li>
-								  <li class="">Billing Address</li>
-							   </ul>
-							</div>
-							<div class="card-action row white-text">
-								  <a href="" class="waves-effect waves-light btn orange darken-3 white-text right">Change</a>
-							</div>
-						  </div>
-						</div>					
-						<div class="col s12">
-							  <div class="card green darken-3">
-								<div class="card-content white-text">
-								  <span class="card-title">Order Summary</span>
-								   <ul>
-									  <li>Items:</li>
-									  <li>Shipping & handling:</li>
-									  <li>Total before tax:</li>
-									  <li>Tax:</li>
-								   </ul>
-								   <p>Order Total:</p>
-								</div>
-								<div class="card-action row white-text">
-									  <a href="" class="waves-effect waves-light btn-large orange darken-3 white-text right">Place Order</a>
-								</div>
-							  </div>
-						</div>
-					</div>-->
-					
-			
+			</div>			
 			<div class="row">
 						<!--logged in shipping address view-->
 						<div class="col s12 l6">
@@ -176,46 +125,10 @@
 								<div class="card-content">
 									<h4 class="header orange-text text-darken-3">Payment Method</h4>
 										<div class="row">
-											<p class='filterBoxes'>
-											  <input name="checkoutToggler" type="radio" id="card" value="1" />
-											  <label for="card">Credit or Debit card</label>
-											</p>
-											<p class='filterBoxes'>
-											  <input name="checkoutToggler" type="radio" id="paypal" value="2" />
-											  <label for="paypal">Login with Paypal</label>
-											</p>											
-										</div>
-										<div class="none toHide" id="form-1">
-										<div class="row">
-											  <div class="col s12">							   
-												   <ul>
-													  <li class="">Card ending in</li>
-													  <li class="">4561</li>		  
-												   </ul>
-												   <a href="#editCard" class="modal-trigger waves-effect waves-light btn orange darken-3 white-text">Edit</a>
-												   <span class='right'>
-														<input name="cardSelect" type="radio" id="card1" />
-														<label for="card1">Use this card</label>							
-												   </span>
-											   </div>
-										  </div>
-										  <div class="divider"></div>
-										  <div class="row">
-											  <div class="col s12">
-												   <ul>
-													  <li class="">Card ending in</li>
-													  <li class="">2341</li>
-												   </ul>
-												   <a href="#editCard" class="modal-trigger waves-effect waves-light btn orange darken-3 white-text">Edit</a>
-												   <span class='right'>
-														<input name="cardSelect" type="radio" id="card2" />
-														<label for="card2">Use this card</label>					
-												   </span>
-											   </div>
-										  </div>
+											<p class='center light green-text text-darken-3'>Login with PayPal</p>								
 										</div>
 										<form action="#">
-											  <div class="row none toHide" id="form-2">
+											  <div class="row" id="form-2">
 												<div class="input-field col s12 orange-text text-darken-3">
 													<i class="mdi-action-account-circle prefix"></i>
 													<input id="username" type="text" >
@@ -242,39 +155,10 @@
 								<div class="card-content">
 									<h4 class="header orange-text text-darken-3">Payment Method</h4>
 										<div class="row">
-											<p class='filterBoxes'>
-											  <input name="checkoutToggler" type="radio" id="card" value="1" />
-											  <label for="card">Credit or Debit card</label>
-											</p>
-											<p class='filterBoxes'>
-											  <input name="checkoutToggler" type="radio" id="paypal" value="2" />
-											  <label for="paypal">Login with Paypal</label>
-											</p>											
+											<p class='center light green-text text-darken-3'>Login with PayPal</p>										
 										</div>
 										<form action="#">
-											  <div class="row none toHide" id="form-1">
-												 <div class="row">
-													<div class="input-field col s12">
-													  <input id="first_name" type="text" >
-													  <label for="first_name">Card Number:</label>
-													</div>
-												  </div>
-												  <div class="row">
-													<div class="input-field col s12">
-													  <input id="cardName" type="text" >
-													  <label for="cardName">Name on card:</label>
-													</div>
-												  </div>
-												  <div class="row">
-													<div class="input-field col s12">
-													  <label for="expirationDate">Expiration Date:</label>
-													  <input id='expirationDate' type="text" class="datepicker">
-													</div>
-												  </div>
-											  </div>
-										</form>
-										<form action="#">
-											  <div class="row none toHide" id="form-2">
+											  <div class="row" id="form-2">
 												<div class="input-field col s12 orange-text text-darken-3">
 													<i class="mdi-action-account-circle prefix"></i>
 													<input id="username" type="text" >
@@ -331,7 +215,7 @@
 						</div>  
 				    </div>
 				</div>
-				<div class="col s12 l6 right">
+				<form action="#" class="col s12 l6 right">
 					<div class="card">
 						<div class="card-content">
 							<h4 class="green-text text-darken-3">Order Summary</h4>
@@ -344,10 +228,10 @@
 							<p>Order total: <span class='right bold'>$30.02</span></p>
 						</div>
 						<div class="card-action row white-text">
-							<a href="" class="larger waves-effect waves-light btn-large orange darken-3 white-text right">Place Order</a>
+							<button class="larger waves-effect waves-light btn-large orange darken-3 white-text right" type="submit" name="action">Place Order</button>
 						</div>
 					</div>
-				</div>
+				</form>
 			</div>		
 		</div>
 	</div>
@@ -357,9 +241,9 @@
 
   <!-- Edit address modal-->
   <div id="editAddress" class="modal modal-fixed-footer">
-	<div class="modal-content">
-	<h4 class="header orange-text text-darken-3">Edit Address</h4>
-	<form class="col s12">
+	<form action="#" class="col s12">
+		<div class="modal-content">
+			<h4 class="header orange-text text-darken-3">Edit Address</h4>
 				<div class="row">
 					<div class="input-field col s12 m6">
 							<input id="firstName" type="text" data-validation="required" data-validation-error-msg="First name is required">
@@ -394,50 +278,13 @@
 						<label for="country">Country:</label>
 					</div>
 				</div>
-	</div>
+		</div>
 		<div class="modal-footer">
 			<button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit</button>
 			<a class="btn btn-flat white modal-close">Cancel</a>
 		</div>
 	</form>
-  </div>
-  
-  <!-- Edit card modal-->
-	<div id="editCard" class="modal modal-fixed-footer">
-		<div class="modal-content">
-		<h4 class="header orange-text text-darken-3">Edit Card</h4>
-		<form class="col s12">
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="cardNumber" type="text" data-validation="creditcard" data-validation-allowing="visa, mastercard, amex">
-							<label for="cardNumber">Card Number:</label>
-						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="cardName" type="text" data-validation="required" data-validation-error-msg="Your name is required">
-							<label for="cardName">Name on card:</label>
-					</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<label for="expirationDate">Expiration Date:</label>
-							<input id='expirationDate' type="text" class="datepicker" data-validation="required" data-validation-error-msg="Expiration date is required">	  
-						</div>
-					</div>
-					<div class="row">
-						<div class="input-field col s12">
-							<input id="cvv" type="text"  name="cvv" data-validation="cvv">
-							<label for="cvv">Secuirty Code:</label>
-						</div>
-					</div>
-		</div>
-		<div class="modal-footer">
-		   <button class="btn waves-effect waves-light green darken-3" type="submit" name="action">Submit</button>
-		  <a class="btn btn-flat white modal-close">Cancel</a>
-		</div>
-		</form>	
-    </div>
+  </div>  
   <!-- END Modals -->
   
  

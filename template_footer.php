@@ -24,7 +24,7 @@
 	  </div>
    <div class="footer-copyright black-text">
             <div class="container">
-            This site is not official and is an assignment for a UCF Digital Media course. Designed by Just Nature.</a>
+            This site is not official and is an assignment for a UCF Digital Media course. Designed by Just Nature.
             </div>
     </div>
 </footer>

@@ -31,7 +31,7 @@
 		return false;
 	});  */
 	
-    $('#search-trigger').click(function()
+    /*$('#search-trigger').click(function()
 	{
 		var search = $('.search');
 
@@ -41,7 +41,7 @@
 		});
 
 		return false;
-	});   
+	}); */  
 	
 	/*= $( 'a#search-trigger' ).click(function() {
 		
@@ -50,6 +50,16 @@
 	  });
 	});
 	 */
+	 $("#search").hide();
+	 
+	 
+	 $( "#search-trigger" ).click(function() {
+	  $( "#search" ).slideToggle( "slow", function() {
+		  
+		$("#search").focus();
+		
+	  });
+	});
 	
 
 	$(document).ready(function(){
@@ -121,6 +131,12 @@
 	//star rating system
 	$('.stars').barrating({
 		theme: 'css-stars'
+	});
+	
+	
+	$('select').change(function ()
+	{
+		$(this).closest('form').submit();
 	});
 	   
 	

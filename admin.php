@@ -34,8 +34,8 @@
 			<div class="row">
 				<div class="col s12">
 				  <ul class="tabs">
-					<li class="tab col s3"><a href="#overview">Overview</a></li>
-					<li class="tab col s3"><a href="#manageProducts">Manage Products</a></li>
+					<li class="tab col s3"><a class='acountTabTxt' href="#overview">Overview</a></li>
+					<li class="tab col s3"><a class='acountTabTxt' href="#manageProducts">Manage Products</a></li>
 				  </ul>
 				</div>
 				<div id="manageProducts" class="col s12">
@@ -163,113 +163,6 @@
 							<a  href="#addProduct" class="modal-trigger waves-effect waves-light btn-large orange darken-3">Add a Product</a>
 						</div>
 					</div>
-					<!--<div class="row none showForm">
-						<div class="card col s12 l6">
-							<div class="card-content">
-								<form class="col s12">
-								  <div class="row">
-									<div class="input-field col s12">
-									  <input id="productName" type="text" >
-									  <label for="productName">Product Name</label>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									  <input id="brandName" type="text" >
-									  <label for="brandName">Brand</label>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									  <textarea id="productDescription" class="materialize-textarea" placeholder="Product description"></textarea>
-									  <label for="productDescription">Description</label>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									  <input type="text" id="productSku" >
-									  <label for="productSku">SKU</label>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									  <input type="number" id="productStock" >
-									  <label for="productStock">Stock</label>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									  <input placeholder="1.99" type="text" id="productCost" >
-									  <label for="productCost">Cost</label>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									  <input placeholder="2.99" type="text" id="productPrice" >
-									  <label for="productPrice">Price</label>
-									</div>
-								  </div>
-								  <div class="row">
-								   <div class="input-field col s12">
-									   <div class="file-field input-field">
-										  <div class="btn orange darken-3">
-											<span>Add Image</span>
-											<input type="file" data-validation="size" data-validation-max-size="2M">
-										  </div>
-										  <div class="file-path-wrapper">
-											<input class="file-path validate" type="text">
-										  </div>
-										</div>
-									</div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									  <input type="text" id="productWeight" >
-									  <label for="productWeight">Weight</label>
-									</div>
-								  </div>
-								  <div class="row">
-									  <div class="input-field col s6 m4">
-										<select class="browser-default">
-										  <option value="" disabled selected>Category</option>
-										  <option value="nutsAndSeeds">Nuts & Seeds</option>
-										  <option value="driedFruit">Dried Fruit</option>
-										   <option value="bars">Bars</option>
-										  <option value="smoothies">Smoothies</option>
-										  <option value="juice">Juice</option>
-										  <option value="tea">Flavored Water</option>			
-										</select>
-									  </div>
-								  </div>
-								  <div class="row">
-									<div class="input-field col s12">
-									   <p>Preferences</p>
-									</div>
-									<ul class="col s12">
-										<li class='filterBoxes'>
-											<input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
-											<label for="filter1">Gluten-free</label>
-										</li>
-										<li class='filterBoxes'>
-											<input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
-											<label for="filter2">Vegan</label>
-										</li>
-										<li class='filterBoxes'>
-											<input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
-											<label for="filter3">Sugar-free</label>
-										</li>
-									</ul>
-								  </div>
-								  <div class="row">
-									<div class="col s12">
-										<button class="btn waves-effect waves-light orange darken-3" type="submit" name="action">Submit
-										</button>
-									</div>
-								  </div>
-								</form>
-							</div>
-						</div>
-					</div>-->
 				</div>
 				<div id="overview" class="col s12">
 					
@@ -330,7 +223,6 @@
 						</li>
 					  </ul>
 					</div>
-					
 				</div>			
 			</div>
 		</div>
@@ -364,44 +256,44 @@
 			<form class="col s12">
 				<div class="row">
 					<div class="input-field col s12">
-						<input id="productName" type="text" data-validation="required" data-validation-error-msg="Product name is required">
-						<label for="productName">Product Name</label>
+						<input id="editProductName" type="text" data-validation="required" data-validation-error-msg="Product name is required">
+						<label for="editProductName">Product Name</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<input id="brandName" type="text" data-validation="required" data-validation-error-msg="Brand name is required">
-						<label for="brandName">Brand</label>
+						<input id="editBrandName" type="text" data-validation="required" data-validation-error-msg="Brand name is required">
+						<label for="editBrandName">Brand</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<textarea id="productDescription" class="materialize-textarea" placeholder="Product description" data-validation="required" data-validation-error-msg="Description is required"></textarea>
-						<label for="productDescription">Description</label>
+						<textarea id="editProductDescription" class="materialize-textarea" placeholder="Product description" data-validation="required" data-validation-error-msg="Description is required"></textarea>
+						<label for="editProductDescription">Description</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<input type="text" id="productSku" data-validation="number">
-						<label for="productSku">SKU</label>
+						<input type="text" id="editProductSku" data-validation="required">
+						<label for="editProductSku">SKU</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<input type="number" id="productStock" data-validation="number">
-						<label for="productStock">Stock</label>
+						<input type="number" id="editProductStock" data-validation="number">
+						<label for="editProductStock">Stock</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<input placeholder="1.99" type="text" id="productCost" data-validation="number" data-validation-allowing="float">
-						<label for="productCost">Cost</label>
+						<input placeholder="1.99" type="text" id="editProductCost" data-validation="number" data-validation-allowing="float">
+						<label for="editProductCost">Cost</label>
 					</div>
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<input placeholder="2.99" type="text" id="productPrice" data-validation="number" data-validation-allowing="float">
-						<label for="productPrice">Price</label>
+						<input placeholder="2.99" type="text" id="editProductPrice" data-validation="number" data-validation-allowing="float">
+						<label for="editProductPrice">Price</label>
 					</div>
 				</div>
 				<div class="row">
@@ -419,8 +311,8 @@
 				</div>
 				<div class="row">
 					<div class="input-field col s12">
-						<input type="text" id="productWeight"  placeholder="measured in oz" data-validation="number" data-validation-allowing="float">
-						<label for="productWeight">Weight</label>
+						<input type="text" id="editProductWeight"  placeholder="measured in oz" data-validation="number" data-validation-allowing="float">
+						<label for="editProductWeight">Weight</label>
 					</div>
 				</div>
 				<div class="row">
@@ -442,16 +334,16 @@
 					</div>
 					<ul class="col s12">
 						<li class='filterBoxes'>
-							<input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
-							<label for="filter1">Gluten-free</label>
+							<input type="checkbox" name="editGlutenFilter" id="editGlutenFilter" value="1" class="filled-in">
+							<label for="editGlutenFilter">Gluten-free</label>
 						</li>
 						<li class='filterBoxes'>
-							<input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
-							<label for="filter2">Vegan</label>
+							<input type="checkbox" name="editVeganFilter" id="editVeganFilter" value="2" class="filled-in">
+							<label for="editVeganFilter">Vegan</label>
 						</li>
 						<li class='filterBoxes'>
-							<input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
-							<label for="filter3">Sugar-free</label>
+							<input type="checkbox" name="editSugarFilter" id="editSugarFilter" value="3" class="filled-in">
+							<label for="editSugarFilter">Sugar-free</label>
 						</li>
 					</ul>
 				</div>
@@ -492,7 +384,7 @@
 								  </div>
 								  <div class="row">
 									<div class="input-field col s12">
-									  <input type="text" id="productSku" data-validation="number">
+									  <input type="text" id="productSku" data-validation="required">
 									  <label for="productSku">SKU</label>
 									</div>
 								  </div>
@@ -552,16 +444,16 @@
 									</div>
 									<ul class="col s12">
 										<li class='filterBoxes'>
-											<input type="checkbox" name="filter1" id="filter1" value="1" class="filled-in">
-											<label for="filter1">Gluten-free</label>
+											<input type="checkbox" name="glutenFilter" id="glutenFilter" value="1" class="filled-in">
+											<label for="glutenFilter">Gluten-free</label>
 										</li>
 										<li class='filterBoxes'>
-											<input type="checkbox" name="filter2" id="filter2" value="2" class="filled-in">
-											<label for="filter2">Vegan</label>
+											<input type="checkbox" name="veganFilter" id="veganFilter" value="2" class="filled-in">
+											<label for="veganFilter">Vegan</label>
 										</li>
 										<li class='filterBoxes'>
-											<input type="checkbox" name="filter3" id="filter3" value="3" class="filled-in">
-											<label for="filter3">Sugar-free</label>
+											<input type="checkbox" name="sugarFilter" id="sugarFilter" value="3" class="filled-in">
+											<label for="sugarFilter">Sugar-free</label>
 										</li>
 									</ul>
 								  </div>
